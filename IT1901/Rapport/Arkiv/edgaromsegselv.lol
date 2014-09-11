@@ -1,0 +1,1 @@
+Kan python og java fra første året på informatikk. Har fått mer erfaring med python fra å være med i dotkom. Kan postgresql fra ITK på samfundet. Kan også en del om servere, spesielt debian, fra både ITK og dotkom. Har også jobbet mye i team

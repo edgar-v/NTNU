@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:padding="100dp">
+    
+   	
+   	
+    <TextView 
+        android:id="@+id/etLableUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_alignParentStart="true"
+        android:text="Username: "/>
+   
+    
+    
+    <TextView 
+        android:id="@+id/etLablePass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_below="@id/etLableUser"
+        android:text="Password: "/>
+    
+     <TextView 
+        android:id="@+id/etLableName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_below="@id/etLablePass"
+        android:text="Name: "/>
+     
+     <TextView 
+        android:id="@+id/etLableEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_below="@id/etLableName"
+        android:text="Email: "/>
+     
+     <TextView 
+        android:id="@+id/etLableTlf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_below="@id/etLableEmail"
+        android:text="Tlf: "/>
+    
+    
+    <TextView 
+        android:id ="@+id/etUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_toRightOf="@id/etLableUser"
+        />
+    
+    
+   	<TextView 
+        android:id ="@+id/etName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_toRightOf="@id/etLableName"
+        android:layout_below="@id/etPassword"
+        />
+    
+    <TextView 
+        android:id ="@+id/etEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_toRightOf="@id/etLableEmail"
+        android:layout_below="@id/etName"
+        />
+   
+    
+    
+    <TextView
+        android:id="@+id/etPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_toRightOf="@id/etLablePass"
+        android:layout_below="@id/etUser"
+        
+        />
+    
+    <TextView
+        android:id="@+id/etTlf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_toRightOf="@id/etLableTlf"
+        android:layout_below="@id/etEmail"
+         />
+
+     <Button
+         android:id="@+id/b6edituser"
+         android:layout_width="70dp"
+         android:layout_height="50dp"
+         android:layout_alignParentBottom="true"
+         android:layout_alignParentRight="true"
+         android:layout_marginBottom="18dp"
+         android:text="@string/b6edituser" />
+
+</RelativeLayout>

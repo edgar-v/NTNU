@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="25dp" >
+
+    <TextView
+        android:id="@+id/showSheepName"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:inputType="text"
+        android:text="Name"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <GridLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/tvsheepAge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Age:"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/etSheepAge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill_horizontal"
+            android:selectAllOnFocus="true"
+            android:editable="false"
+            android:focusable="false"
+            android:hint="@string/etSheepAge"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/tvsheepWeight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Weight:"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/etSheepWeight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill_horizontal"
+            android:editable="false"
+            android:focusable="false"
+            android:hint="@string/etSheepWeight"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/tvsheepHealth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Health:"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/etSheepHealth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill_horizontal"
+            android:editable="false"
+            android:focusable="false"
+            android:hint="@string/etSheepHealth"
+            android:inputType="text" />
+
+        <TextView
+            android:id="@+id/tvsheepStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Status:"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tvsheepAlive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:text="Null"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+    </GridLayout>
+
+    <Button
+        android:id="@+id/b3editSheep"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/editSheep" />
+
+    <Button
+        android:id="@+id/b3deleteSheep"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete" />
+
+    <Button
+        android:id="@+id/b3Sheeplog"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:text="Show log" />
+
+</LinearLayout>

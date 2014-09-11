@@ -1,0 +1,35 @@
+Testing
+
+Under utviklingen av applikasjonen følte vi behovet for å ha automatiske
+tester som vi kunne kjøre for å teste at ny funksjonalitet ikke brakk
+funksjonalitet som var laget i en eldre sprint. Derfor brukte vi Java sitt
+JUnit testrammeverk for å kjøre testene våre. Testene våre gikk ut på å
+sende HTTP-forespørsler til Raspberry PI-en for så å sjekke at vi fikk en OK status
+melding tilbake hvis forespørselen innehold gyldig innformasjon, og en
+feilmelding hvis det var felter som manglet, feil passord, brukeren ikke
+eksisterer osv.
+
+I tillegg til automatiske tester gjorde vi noen brukertester underveis. Dette
+vil si at vi gav en tablet med applikasjonen installert til en uvitende person
+som ikke hadde erfaring med programmet slik at vi kunne teste
+brukervennligheten, men også om brukeren kunne finne noen feil som vi selv ikke
+kunne se. Dette gjorde at vi kunne fikse en del feil som vi kanskje ellers ikke
+hadde oppdaget. Brukertestingen vår var ikke helt optimal siden vi ikke fikk
+testet applikasjonen på en bonde som ikke har like god IT-kompetanse som de
+andre informatikkstudenten vi testet på. 
+
+Dimensjonering
+
+Kravspesifikasjonen sier at systemet skal kunne greie å håndtere 200 bønder og
+10.000 sauer. Vi har derfor dyttet masse testdata inn in databasen slik at hver
+bonde har minst 50 sauer. System håndterer dette fint, og systemet vart ikke
+merkbart tregere av dette når det kommer til brukeropplevelsen. Vi merker dog at
+Raspberry PI-en må jobbe hardere for å kjøre en full oppdatering av alle sauene,
+men siden dette skjer kun tre ganger i døgnet er systemet veldig stabilt. Vi har
+og testet ved å gi en bonde mange flere sauer. Da vart applikasjonen merkbart
+tregere når man ville tvinge gjennom en oppdatering. Bortsett fra selve
+oppdateringen fungerte system her også som før. Vi visste allerede fra starten
+at en Raspberry PI ikke var egnet når mengden data som var lagret ble veldig
+stor, og om prosjektet noen gang skulle blitt lansert som et fullgodt produkt
+måtte vi ha investert i en ordentlig server. Det er fremdeles interessant at en
+så liten boks oppnår kravene satt i kravspesifikasjonen uten problemer. 

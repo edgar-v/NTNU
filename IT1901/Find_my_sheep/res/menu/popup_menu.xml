@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/changeSheep"
+        android:title="@string/change_sheep"/>
+    <item
+        android:id="@+id/deleteSheep"
+        android:title="@string/delete_sheep"/>
+    <item
+        android:id="@+id/sheepLog"
+        android:title="@string/sheep_log"/>
+
+</menu>

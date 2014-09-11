@@ -1,0 +1,39 @@
+Github
+
+Github er hovedsaklig et webbasert versjonskontrollsystem. I en slik
+utviklingsprosess som vi har hatt der vi har flere personer som koder på samme
+kodebase samtidig er et versjonskontrollsystem veldig viktig. Et
+versjonskontrollsystem passer på at ingen kode går tapt, man vet hvem som har
+gjort vilke endringer, og den vil prøve å forhindre konflikter hvis to personer
+har jobbet på samme fil. Måten man jobber med github på er at hovedkodebasen
+ligger i skyen på github sine servere og når man skal endre på kodebasen lager
+man en forgreining av denne. Dvs. at du kopierer kodebasen ned til din lokale
+datamaskin. Her kan du gjøre alle endringene du vil for så å dytte koden opp til
+github. Når du har gjort dette kan du sammensveise dine endringer med den
+originale koden. Github vil nå prøve å flette dette sammen automatisk, og den er
+vanligvis veldig flink på dette, men i ny og ne klarer den det ikke og du må da
+selv si hvilken endringer som skal være med. 
+
+Github har og andre fine funksjoner som et hvert versjonskontrollsystem burde
+ha: den lagrer alle endringer siden du startet prosjektet, og du kan derfor
+rulle tilbake til en tidligere versjon om noe skulle gå galt. I tillegg til å
+være et versjonskontrollsystem tilbyr Github en del andre funksjonaliteter. Du
+har muligheter for å legge til såkalte "issues" og gi dem til folk som jobber på
+prosjektet. På denne måten kan du se hva hver person skal gjøre. Hver eneste
+kodelinje i kodebasen kan spores til en person, og man vet da hvem som har
+skrevet hva.
+Vi fikk tilbud om en SVN server fra studass, men siden noen på gruppa hadde
+erfaring med Github fra før bestemte vi oss for å bruke det siden det er gratis.
+
+PostgreSQL
+
+For å lagre data fra flere bønder var i nødt til å ha en database. Valget vårt
+havnet på PostgreSQL siden det var det eneste databasehåndteringssystemet noen i
+gruppa hadde brukt før. I tillegg har PostgreSQL åpen kildekode, og ingen
+restriksjoner på bruk av den. Den er også veldig solid og stabil. Vi har valgt å
+ta backup av all dataen i databasen hver natt slik at hvis en systemkrasj skulle
+inntreffe vil vi ha all dataen lagret på en annen server. Databasen er ikke
+tilgjenglig utenifra, dette fordi da har vi ikke noen mulighet for å sanitere
+sql spørringene som kommer inn. Dette er viktig siden ellers ville vi vært svært
+åpne for SQLInjections. Vi har derfor valgt å ha et mellomlag mellom database og
+applikasjon som saniterer data og håndterer eventuelle feil.

@@ -1,0 +1,8 @@
+Teknisk Server Brukermanual
+
+Serveren vår er satt opp med tanke på linux, men det skal i teorien være mulig å kjøre den på andre operativsystem.
+
+For å sette opp serveren til applikasjonen trengs det ein server som du har rottilgang på. Jeg anntar at du har installert PostgreSQL og Apache. Apache må være satt opp sånn at CGI skript mappa er i /var/www/cgi-bin/. Du må og ha installert python 3.0. All koden ligger vedlagt. Kopier cgi-bin mappa fra vedlegget til /var/www/. Du skal nå ha filer med denne strukturen: /var/www/cgi-bin/adduser.py.
+Når dette er gjort må vi sette opp databasen. Det første du må gjøre er å lage en database med navnet findmysheep i postgresql og gi brukeren postgres tilgang på denne med passordet 'kohxotoo'.  Vedlagt ligger også en sql fil. Denne inneholder all informasjonen om strukturen på databasen. Denne kan du mate til databasen og alle tabellene vil bli opprettet på rett måte. Du må også rute alle data fra port 80 (standard for HTTP) til serveren din fra ruteren om du ikke allerede har gjort
+dette.
+

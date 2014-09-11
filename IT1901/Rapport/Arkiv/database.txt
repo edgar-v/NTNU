@@ -1,0 +1,58 @@
+6.2 Database
+
+6.2.1 Relasjoner
+
+Dette avsnittet forklarer hvordan databsen er bydt opp, konfigurert og ralsjonenee mellom de ulike entitetene.
+
+<insert picture of databseshiterdiagram>
+
+Databasen vår består av fire entiteter; "users", "farm", "sheep", og "log".
+"users" inneholder informasjon om alle bøndene som bruker applikasjonen. Her
+blir ting som kontakt- og innloggingsinformasjon lagret. Passordet vårt er
+hashet med SHA1 kryptering som er en anbefalt krypteringsmetode. I tillegg til
+SHA1 kryptering har vi 'salta' passordet med en tilfeldig generert 16-tegns lang
+streng. Dette er gjort fordi hvis en inntrenger skulle få tak i passordet vårt
+vil han ikke kunne ta i bruk allerde genererte 'rainbow tables' for å
+cracke passordet til brukeren. Dette fører i praksis til at det vil ta så lang
+tid å cracke passord at det ofte ikke er verdt det. Til hver bonde er det koblet
+en gård("farm") som inneholder GPS-kordinater til beiteområdets hjørner. En
+bonde har også en eller flere sauer. I sauetabellen er det lagret
+helseinformasjon og GPS-data. Hver sau har også to statusvariabler: 'alive' og
+'alarm'. Dette gjør at vi fort kan sjekke i databasen om noe kritisk har skjedd. 
+Hver sau er og koblet opp mot loggen. Vi har valgt å lagre logg i databasen i 
+stedet for i en tekstfil fordi det skal være mulig å gjøre spørringer på loggen 
+som f. eks når var denne sauen under angrep. Siden databaser er veldig raske til
+å gjøre spørringer i var dette det beste valget. I loggen blir det lagret
+posisjon, status og tidspunkt for hver hendelse(sauen beveger seg, blir
+angrepet, eller dør).
+
+6.2.2 Teknisk/Konfigurasjon
+
+Vi har valgt å bruke en Raspberry PI som server under prosjektet fordi vi ikke
+har tilgang til en ordentlig server, og den oppnår kravet for mengde data som
+skal bli lagret og responstid som var gitt i kravspesifikasjonen. RPI'en kjører
+Raspbian som er en uoffisiel port av Debian, men som er tilpasset det avanserte
+instruksjonssettet til ARM CPU'en i RPI. Vi bruker Apache 2.2 som HTTP server og
+PostgreSQL som databasehåndteringssytem. Apache håndterer  innkommende
+HTTP-forespørsler og delegerer de videre til rett fil for så å kjøre filen som
+et lite python skript.
+
+Skriptet returnerer en status kode(f. eks 200 hvis alt
+gikk bra). Noen skript returnerer også en JSON-formattert string som inneholder
+data som skal bli sendt tilbake til applikasjonen. Pythonskriptene får inn data
+fra HTTP-forespørselene og kommuniserer så med databasen før den returnerer
+eventuelle data.
+
+PostgreSQL er et åpen kildekode databsehåndteringssystem som er svært kraftig,
+og den fungerer utmerket på Debian baserte linux distrubuisjoner. I tillegg til
+PostgreSQL på server som hoveddatabase, bruker vi en SQLite database i selve
+applikasjonen som inneholder data for den gjeldende brukeren. Grunnen til at vi
+her bruker vi SQLite er fordi det er det som er enklest og best å bruke i
+android. Lokalt lagrer vi informasjon om sauer, en ukes log og brukerinformasjon
+bortsett fra passord. 
+
+For at applikasjonen skal holde seg oppdatert med den nyeste informasjonen
+bruker vi Google Cloud Messaging. Dette gjør at vi kan dytte oppdateringer på
+applikasjonen i bakgrunnen selv om appen ikke kjører. Hvis serveren vår får vite
+at en sau er under angrep eller har omkommet vil brukeren få en notifikasjon og
+epost om det. 

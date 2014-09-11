@@ -1,0 +1,33 @@
+<eObjectEntry  timestamp='1360685862419' resUri='platform:/resource/ovinger/jex/ov3.jex' fragmentId='//@requirements.0/@requirements.0/@requirements.5' key='test run status' value='false'/>
+<eObjectEntry  timestamp='1360685862425' resUri='platform:/resource/ovinger/jex/ov3.jex' fragmentId='//@requirements.0/@requirements.0/@requirements.7' key='test run status' value='false'/>
+<eObjectEntry  timestamp='1360685862433' resUri='platform:/resource/ovinger/jex/ov3.jex' fragmentId='//@requirements.0/@requirements.0/@requirements.9' key='test run status' value='false'/>
+<eObjectEntry  timestamp='1360685862440' resUri='platform:/resource/ovinger/jex/ov3.jex' fragmentId='//@requirements.2/@requirements.0/@requirements.3' key='test run status' value='true'/>
+<eObjectEntry  timestamp='1360685862446' resUri='platform:/resource/ovinger/jex/ov3.jex' fragmentId='//@requirements.2/@requirements.1/@requirements.2' key='test run status' value='false'/>
+<eObjectEntry  timestamp='1360685862450' resUri='platform:/resource/ovinger/jex/ov3.jex' fragmentId='//@requirements.2/@requirements.1/@requirements.4' key='test run status' value='true'/>
+<eObjectEntry  timestamp='1360686391458' resUri='platform:/resource/ovinger/jex/ov3.jex' fragmentId='//@requirements.0/@requirements.0/@requirements.5' key='test run status' value='true'/>
+<eObjectEntry  timestamp='1360686391482' resUri='platform:/resource/ovinger/jex/ov3.jex' fragmentId='//@requirements.0/@requirements.0/@requirements.7' key='test run status' value='true'/>
+<eObjectEntry  timestamp='1360686391493' resUri='platform:/resource/ovinger/jex/ov3.jex' fragmentId='//@requirements.0/@requirements.0/@requirements.9' key='test run status' value='false'/>
+<eObjectEntry  timestamp='1360686391505' resUri='platform:/resource/ovinger/jex/ov3.jex' fragmentId='//@requirements.2/@requirements.0/@requirements.3' key='test run status' value='true'/>
+<eObjectEntry  timestamp='1360686391526' resUri='platform:/resource/ovinger/jex/ov3.jex' fragmentId='//@requirements.2/@requirements.1/@requirements.2' key='test run status' value='false'/>
+<eObjectEntry  timestamp='1360686391622' resUri='platform:/resource/ovinger/jex/ov3.jex' fragmentId='//@requirements.2/@requirements.1/@requirements.4' key='test run status' value='true'/>
+<eObjectEntry  timestamp='1360686444642' resUri='platform:/resource/ovinger/jex/ov3.jex' fragmentId='//@requirements.0/@requirements.0/@requirements.5' key='test run status' value='true'/>
+<eObjectEntry  timestamp='1360686444652' resUri='platform:/resource/ovinger/jex/ov3.jex' fragmentId='//@requirements.0/@requirements.0/@requirements.7' key='test run status' value='true'/>
+<eObjectEntry  timestamp='1360686444673' resUri='platform:/resource/ovinger/jex/ov3.jex' fragmentId='//@requirements.0/@requirements.0/@requirements.9' key='test run status' value='true'/>
+<eObjectEntry  timestamp='1360686444687' resUri='platform:/resource/ovinger/jex/ov3.jex' fragmentId='//@requirements.2/@requirements.0/@requirements.3' key='test run status' value='true'/>
+<eObjectEntry  timestamp='1360686444705' resUri='platform:/resource/ovinger/jex/ov3.jex' fragmentId='//@requirements.2/@requirements.1/@requirements.2' key='test run status' value='false'/>
+<eObjectEntry  timestamp='1360686444712' resUri='platform:/resource/ovinger/jex/ov3.jex' fragmentId='//@requirements.2/@requirements.1/@requirements.4' key='test run status' value='true'/>
+<eObjectEntry  timestamp='1360686670490' resUri='platform:/resource/ovinger/jex/ov3.jex' fragmentId='//@requirements.0/@requirements.0/@requirements.5' key='test run status' value='true'/>
+<eObjectEntry  timestamp='1360686670496' resUri='platform:/resource/ovinger/jex/ov3.jex' fragmentId='//@requirements.0/@requirements.0/@requirements.7' key='test run status' value='true'/>
+<eObjectEntry  timestamp='1360686670505' resUri='platform:/resource/ovinger/jex/ov3.jex' fragmentId='//@requirements.0/@requirements.0/@requirements.9' key='test run status' value='true'/>
+<eObjectEntry  timestamp='1360686670515' resUri='platform:/resource/ovinger/jex/ov3.jex' fragmentId='//@requirements.2/@requirements.0/@requirements.3' key='test run status' value='true'/>
+<eObjectEntry  timestamp='1360686670530' resUri='platform:/resource/ovinger/jex/ov3.jex' fragmentId='//@requirements.2/@requirements.1/@requirements.2' key='test run status' value='true'/>
+<eObjectEntry  timestamp='1360686670539' resUri='platform:/resource/ovinger/jex/ov3.jex' fragmentId='//@requirements.2/@requirements.1/@requirements.4' key='test run status' value='true'/>
+<eResourceEntry  timestamp='1360692546585' resUri='platform:/resource/ovinger/jex/ov3.jex' key='resource selected' value='null'/>
+<eResourceEntry  timestamp='1366363982028' resUri='platform:/resource/ovinger/jex/ov3.jex' key='resource selected' value='null'/>
+<eObjectEntry  timestamp='1366363983368' resUri='platform:/resource/ovinger/jex/ov3.jex' fragmentId='//@javaElements.0/@classes.6' key='junit test launch' value='AllTests'/>
+<eObjectEntry  timestamp='1366363985636' resUri='platform:/resource/ovinger/jex/ov3.jex' fragmentId='//@requirements.0/@requirements.0/@requirements.5' key='test run status' value='true'/>
+<eObjectEntry  timestamp='1366363985643' resUri='platform:/resource/ovinger/jex/ov3.jex' fragmentId='//@requirements.0/@requirements.0/@requirements.7' key='test run status' value='true'/>
+<eObjectEntry  timestamp='1366363985651' resUri='platform:/resource/ovinger/jex/ov3.jex' fragmentId='//@requirements.0/@requirements.0/@requirements.9' key='test run status' value='true'/>
+<eObjectEntry  timestamp='1366363985663' resUri='platform:/resource/ovinger/jex/ov3.jex' fragmentId='//@requirements.2/@requirements.0/@requirements.3' key='test run status' value='true'/>
+<eObjectEntry  timestamp='1366363985671' resUri='platform:/resource/ovinger/jex/ov3.jex' fragmentId='//@requirements.2/@requirements.1/@requirements.2' key='test run status' value='true'/>
+<eObjectEntry  timestamp='1366363985681' resUri='platform:/resource/ovinger/jex/ov3.jex' fragmentId='//@requirements.2/@requirements.1/@requirements.4' key='test run status' value='true'/>

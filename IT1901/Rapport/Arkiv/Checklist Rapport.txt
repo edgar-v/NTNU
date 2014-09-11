@@ -1,0 +1,28 @@
+1[x]Introduksjon(Om prosjektet, gruppa, oppgaven og valg av prosessmetode)
+2[J]Tidsestimering
+3[H]Risikofaktorer
+4[x]Prosjektorganisering
+4.1[F]Prosessbeskrivelse
+5[H]Verktøy
+6[x]Arkitekturforklaring(Ink. valg av løsning) (Edgar?)
+7[]Produktbeskrivelse(implimentasjon) (Edgar?)
+8[S]Systemdesign (GUI)
+9[]Systemfunksjoner. (forklare logikken)
+10[]Vedleggsliste
+
+[H]Teknisk brukermanual
+
+[E]Testing
+[E]Dimensjonering, brukertest, systemtest.
+
+
+
+[]Fylle ut burndown-chart 100 %
+
+
+
+
+[J]Valg av løsning(under arkitektur)
+[]Implimentasjon
+
+m/refleksjon under hvert punkt

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="25dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    
+    <EditText
+        android:id ="@+id/etSheepName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/etSheepName"
+        android:inputType="text"
+        />
+    
+    <EditText 
+        android:id ="@+id/etSheepAge"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/etSheepAge"
+        android:inputType="number"
+        />
+   
+    <EditText 
+        android:id ="@+id/etSheepWeight"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/etSheepWeight"
+        android:inputType="number"
+        />
+    
+    <EditText
+        android:id="@+id/etSheepHealth"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/etSheepHealth"
+        android:inputType="text" />  
+    
+    <Button
+            android:layout_weight="90"
+            android:id="@+id/b3sheepReg"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:text="@string/b3sheepReg" />
+    
+    <TextView
+        android:id="@+id/tvsheepLog"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/invalid" />
+
+        
+
+</LinearLayout>

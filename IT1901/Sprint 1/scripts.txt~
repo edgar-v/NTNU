@@ -1,0 +1,63 @@
+﻿Scripts:
+============================================
+129.241.126.66/cgi-bin/checkuser.py // Sjekker om brukernavnet + passord stemmer
+params:
+	username
+	password
+errors:
+	400: Bad Request // Manglende parameter
+	404: Not Found // Brukeren finnes ikke
+	401: Unauthorized // Feil passord
+	200: OK
+
+============================================
+129.241.126.66/cgi-bin/adduser.py // Legger til en bruker
+params:
+	username
+	password
+	email
+	tlf
+	name
+errors:
+	400: Bad Request // Manglende parameter
+	420: Method Failed // En bruker med det brukernavnet finnes allerede
+	200: OK
+
+============================================
+129.241.126.66/cgi-bin/regsheep.py // Registrerer en sau
+params:
+	username (farmer username)
+	name
+	age
+	weight
+	health // Kommentar
+errors:
+	400: Bad Request // Manglende parameter
+	200: OK
+
+============================================
+129.241.126.66/cgi-bin/recovery.py // Setter recovery felter til en verdi og sender verdien på epost til brukeren.
+params:
+	username (farmer username)
+errors:
+	400: Bad Request // Manglende parameter
+	200: OK
+
+============================================
+129.241.126.66/cgi-bin/resetpassword.py // Hvis recovery nøkkelen stemmer, blir det nye passordet satt
+params:
+	username (farmer username)
+	recoverykey
+	password (det nye passordet)
+errors:
+	400: Bad Request // Manglende parameter
+	401: Unauthorized // Feil recovery_key
+	404: Not Found	 // Fant ingen bruker med det brukernavnet
+
+=============================================
+129.241.126.66/cgi-bin/getsheepinfo.py // Få alle databaseentryene til en bondes sauer
+params:
+	username (farmer username)
+errors:
+	400: Bad Request // Manglende parameter
+	404: Not Found // Fant ingen bruker med det brukernavnet

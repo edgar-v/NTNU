@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.g19.find_my_sheep"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-permission android:name="com.g19.find_my_sheep.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:name="FindMySheep"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="Find my Sheep"
+        android:theme="@style/AppTheme" >
+        
+        <!-- Splash screen activity -->
+        
+        <activity
+            android:name="com.g19.find_my_sheep.Splashscreen"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+           
+        </activity>
+            
+        <!-- Main activity -->
+        
+        <activity
+            android:name="com.g19.find_my_sheep.MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity android:name="com.g19.find_my_sheep.Map" >
+
+            <!-- android:uiOptions="splitActionBarWhenNarrow" -->
+            <!-- <meta-data android:name="android.support.UI_OPTIONS" -->
+            <!-- android:value="splitActionBarWhenNarrow" /> -->
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyDtQCCwLsfIGfmFBszFKLzQMRFT8ZzirJw" />
+
+        <activity
+            android:name="com.g19.find_my_sheep.RegUser"
+            android:label="@string/title_activity_reg_user" >
+        </activity>
+        <activity
+            android:name="com.g19.find_my_sheep.RecoverPassword"
+            android:label="@string/title_activity_recover_password" >
+        </activity>
+        <activity
+            android:name="com.g19.find_my_sheep.ResetPassword"
+            android:label="@string/title_activity_reset_password" >
+        </activity>
+        <activity
+            android:name="com.g19.find_my_sheep.RegisterSheep"
+            android:label="@string/title_activity_register_sheep"
+            android:parentActivityName="com.g19.find_my_sheep.SheepMenu" >
+        </activity>
+        <activity
+            android:name="com.g19.find_my_sheep.SheepMenu"
+            android:label="@string/sheepMenu"
+            android:parentActivityName="com.g19.find_my_sheep.Map" >
+        </activity>
+        <activity
+            android:name="com.g19.find_my_sheep.UserMenu"
+            android:label="@string/userMenu"
+            android:parentActivityName="com.g10.find_my_sheep.Map" >
+        </activity>
+        <activity
+            android:name="com.g19.find_my_sheep.EditSheep"
+            android:label="@string/editSheep"
+            android:parentActivityName="com.g10.find_my_sheep.SheepMenu" >
+        </activity>
+        <activity
+            android:name="com.g19.find_my_sheep.EditUser" 
+            android:label="@string/profileEdit"
+            android:parentActivityName="com.g10.find_my_sheep.UserMenu">
+        </activity>
+    </application>
+
+</manifest>

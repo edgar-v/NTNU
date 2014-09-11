@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Find my sheep</string>
+    <string name="action_settings">Settings</string>
+    <string name="invalid">Invalid </string>
+    <string name="tbPassword">ToggleButton </string>
+    <string name="teUser">Enter username </string>
+	<string name="tePassword">Enter password </string>
+	<string name="b3Login">Login </string>
+	<string name="b3Reg">Register </string>
+	<string name="etName">Enter name </string>
+	<string name="etEmail">Enter email </string>
+	<string name="etEmail2">Validate email </string>
+	<string name="tePassword2">password again </string>
+	
+
+</resources>

@@ -1,0 +1,6 @@
+-Jeg brukte en ActionListener klasser inne i hovdeklassen som hver tok for seg et event.
+
+-Syntaktiske hendelser abstraherer bort inputenheten og hvordan GUI'et ser ut. Den bryr seg kun om kombinasjoner og betingelser.
+Leksikalske hendelser er svært detaljerte med mye logikk. Man trenger også veldig mangen leksikalske hendelser.
+
+- Jeg har brukt syntaktiske hendelser siden jeg har laget egne klasser for hendelsene.

@@ -1,0 +1,14 @@
+log inn skjerm skal ha sentrert input text | Said DOEN
+
+overlapp pÃ¥ tekst i vis sau meny | Said
+
+navn pÃ¥ sauemeny edit tar bare i mot tall | Fredrik | DOEN
+vending fungerer pÃ¥ sauemny | Frdrik | DOEN
+
+Vis posisjon på log skjerm går til nye kordinater isteden for kordinater ved en bestemt tid
+
+Passord blir ikke registrert, lite tilbakemelding viss ting er feil.
+Simulator er jævla treigt, massexecute? DASSN
+
+Programmet stopper nŒr man pr¿ve Œ redigere bruker. DOEN
+Nytt navn lagres ikke pŒ sauer DONE

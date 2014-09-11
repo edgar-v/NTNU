@@ -1,0 +1,3 @@
+A customer should be able to go the checkout menu. There he can choose his payment method
+before being forwarded to a 3rd party site handling the payment. If the payment is sucessful
+a receipt is sent to the customers email account.
