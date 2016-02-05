@@ -1,0 +1,80 @@
+\documentclass[a4paper]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8x]{inputenc}
+\usepackage[a4paper]{geometry}
+\geometry{verbose,tmargin=3cm,bmargin=3cm,lmargin=2cm,rmargin=2cm,headheight=2cm,headsep=1cm,footskip=2cm}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\setlength{\parskip}{\medskipamount}
+\setlength{\parindent}{0pt}
+\usepackage{graphicx}
+\usepackage{amsmath}
+
+\makeatletter
+\usepackage{float}
+\usepackage{lastpage}
+\usepackage{indentfirst}
+\usepackage{mathrsfs}
+\usepackage{enumerate}
+\usepackage{caption}
+\usepackage{subcaption}
+
+\usepackage{listings}
+\usepackage{color}
+
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\lstset{frame=tb,
+  language=Java,
+  aboveskip=3mm,
+  belowskip=3mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=none,
+  numberstyle=\tiny\color{gray},
+  keywordstyle=\color{blue},
+  commentstyle=\color{dkgreen},
+  stringstyle=\color{mauve},
+  breaklines=true,
+  breakatwhitespace=true,
+  tabsize=3
+}
+
+\lhead[lh-even]{Edgar Vedvik (edgarmv)\\ Informatikk (BIT)}
+\chead[ch-even]{SPA0501 SPANSK 1\\ Arbeidskrav 1}
+\rhead[rh-even]{\today}
+
+\lfoot[lf-even]{}
+\cfoot[cf-even]{Side \thepage{} av \pageref{LastPage}}
+\rfoot[rf-even]{}
+
+\date{}
+
+\makeatother
+
+\usepackage[english]{babel}
+
+\begin{document}
+\thispagestyle{fancy}
+
+Målet med oppgaven er å finne vinkelen som kreves for at to klosser som er bundet sammen med en snor sklir med konstant hastighet (akkselerasjon = 0) ned et skråplan. Vi skal teoretisk forklare systemet, måle de ulike parameterene eksperimentellt og utføre en usikkerhetsanalyse av parameterene. Etter dette får vi en oppgave der vi får to klosser med gitt masse, velger to friksjonslag og lager ett oppsett der klossene sklir med konstant hastighet. Til slutt skal vi presentere resultatene.
+
+De fysiske størrelsene som påvirker oppgaven er tyngdekraften, massen til klossene, vinkelen på skråplanet, friksjonskoeffisienten og luftmotstanden. I et skråplan med friksjon har vi følgende ligninger for en kloss:
+\par
+$\Sigma F = mg\sin\alpha - \mu mg\cos\alpha$\\
+$a = g\sin\alpha - \mu g\cos\alpha$
+
+Massen for klossene vil være kjent siden vi kan veie dem med ganske stor nøyaktighet. Tyngdekraften er kjent. Vinkelen på skråplanet kan vi måle. Friksjonskoeffisienten er ukjent og luftmotstanden er neglisjerbar siden hastigheten på klossen er liten.
+
+For å finne den ukjente friksjonskoeffisienten kan vi bruke tracker til å finne akkselerasjonen til klossen og snu om på formelen ovenfor og regne oss frem til den:
+\par
+$\mu = \tan\alpha -\frac{a}{g\cos\alpha}$
+
+For å gjøre oss kjent med tracker kan vi slippe en kloss med kjent masse og måle aksellerasjonen til den og se om det stemmer overens med det vi forventet å få.
+
+
+\end{document}
