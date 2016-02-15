@@ -9,7 +9,6 @@
 \setlength{\parskip}{\medskipamount}
 \setlength{\parindent}{0pt}
 \usepackage{graphicx}
-\usepackage{amsmath}
 
 \makeatletter
 \usepackage{float}
@@ -45,7 +44,7 @@
 }
 
 \lhead[lh-even]{Edgar Vedvik (edgarmv)\\ Informatikk (BIT)}
-\chead[ch-even]{TDT4205 Kompilatorteknikk\\ Problem set 2 }
+\chead[ch-even]{TDT4205 Kompilatorteknikk\\ Problem Set 2 }
 \rhead[rh-even]{\today}
 
 \lfoot[lf-even]{}
@@ -61,22 +60,43 @@
 \begin{document}
 \thispagestyle{fancy}
 
-\begin{enumerate}
-    \item
+\subsection*{1.1}
     \begin{enumerate}
-        \item
-
-        \item
-            \verb/[0-9]+(\.[0-9]+)?(\s*[+-]{1}\s*[0-9]+(\.[0-9]+)?i)?/
-        \item
-            Yes. It can be described by a DFA
+            \item $S \rightarrow sCTS'$
+            \item $S' \rightarrow wB | \epsilon$
+            \item $C \rightarrow c$
+            \item $T \rightarrow t | \epsilon$
+            \item $B \rightarrow aB'$
+            \item $B' \rightarrow aB' | \epsilon$
 
     \end{enumerate}
-\item
-    \begin{enumerate}
-        \item \text{}\\
-            \includegraphics[width=.3\linewidth]{DFA.jpg}
-    \end{enumerate}
-\end{enumerate}
+
+\subsection*{1.2}
+
+    First and follow sets
+
+    \begin{tabular}{| c | c | c |}
+        \hline
+        NONTERMINAL & FIRST    & FOLLOW \\ \hline
+        S  & $\{s\}$           & $\{ \$ \}$ \\ \hline
+        S' & $\{\epsilon, w\}$ & $\{ \$ \}$ \\ \hline
+        C  & $\{c\}$           & $\{ t, \$ \}$ \\ \hline
+        T  & $\{\epsilon, t\}$ & $\{w, \$ \}$ \\ \hline
+        B  & $\{a\}$           & $\{ \$ \}$ \\ \hline
+        B' & $\{\epsilon, a\}$ & $\{ \$ \}$ \\ \hline
+    \end{tabular}
+
+    Predictive parsing table
+
+    \begin{tabular}{| c | c | c | c | c | c | c |}
+        \hline
+        Non-Terminal & s & w & c & t & a & \$ \\ \hline
+        S & $S \rightarrow sCTS'$ & & & & & \\ \hline
+        S' & & $S' \rightarrow wB$ & & & & $S' \rightarrow \epsilon$ \\ \hline
+        C & & & $C \rightarrow c$ & & & \\ \hline
+        T & & $T \rightarrow \epsilon$ & & $T \rightarrow t$ & & $T \rightarrow \epsilon$ \\ \hline
+        B & & & & & $B \rightarrow aB'$ & \\ \hline
+        B' & & & & & $B' \rightarrow aB'$ & $B' \rightarrow \epsilon$ \\ \hline
+    \end{tabular}
 
 \end{document}
