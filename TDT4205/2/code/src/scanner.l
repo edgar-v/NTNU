@@ -34,7 +34,7 @@ VAR                     { return VAR; }
 [a-zA-Z_][a-zA-Z0-9_]*  { return IDENTIFIER; }
 
     /* Digits */
-[0-9]+(\.[0-9]+)?       { return NUMBER; }
+[0-9]+       { return NUMBER; }
 
     /* Operators */
 
@@ -45,6 +45,7 @@ VAR                     { return VAR; }
 \/                      { return '/'; }
 \<                      { return '<'; }
 \>                      { return '>'; }
+=                       { return '='; }
 
 
     /* Punctuation */

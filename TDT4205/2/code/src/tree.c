@@ -33,6 +33,9 @@ node_print ( node_t *root, int nesting )
 void
 node_init (node_t *nd, node_index_t type, void *data, uint64_t n_children, ...)
 {
+//    if ( type == NUMBER_DATA )
+ //        printf ( "%ld %ld\n", data, *((int64_t *)data) );
+
     nd->type = type;
     nd->data = data;
     nd->n_children = n_children;
@@ -50,6 +53,10 @@ node_init (node_t *nd, node_index_t type, void *data, uint64_t n_children, ...)
 void
 node_finalize ( node_t *discard )
 {
+    if (discard != NULL) {
+        free(discard->children);
+        free(discard);
+    }
 }
 
 
@@ -57,5 +64,9 @@ node_finalize ( node_t *discard )
 void
 destroy_subtree ( node_t *discard )
 {
-    free ( discard );
+    if (discard != NULL)
+        for (int i = 0; i < discard->n_children; i++) {
+            destroy_subtree(discard->children[i]);
+            node_finalize(discard->children[i]);
+        }
 }
