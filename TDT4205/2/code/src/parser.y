@@ -11,42 +11,46 @@
 %token VAR NUMBER IDENTIFIER STRING ASSIGN
 
 %%
-    /*
-program :
-      FUNC {
-        root = (node_t *) malloc ( sizeof(node_t) );
-        node_init ( root, PROGRAM, NULL, 0 );
-      }
-    ;
-      */
 
-program : global_list {
-                root = (node_t *) malloc(sizeof(node_t));
-                node_init(root, PROGRAM, NULL, 1, $1); 
+program : global_list
+                {
+                  root = (node_t *) malloc(sizeof(node_t));
+                  node_init(root, PROGRAM, NULL, 1, $1); 
                 };
 
-global_list : global { $$ = (node_t *) malloc(sizeof(node_t));
-                       node_init($$, GLOBAL_LIST, NULL, 1, $1);
-                     }
-            | global_list global { $$ = (node_t *) malloc(sizeof(node_t));
-                                   node_init($$, GLOBAL_LIST, NULL, 2, $1, $2);
-                                 }
+global_list : global 
+                { $$ = (node_t *) malloc(sizeof(node_t));
+                  node_init($$, GLOBAL_LIST, NULL, 1, $1);
+                }
+            | global_list global 
+                {
+                  $$ = (node_t *) malloc(sizeof(node_t));
+                  node_init($$, GLOBAL_LIST, NULL, 2, $1, $2);
+                }
             ;
 
-global : function { $$ = (node_t *) malloc(sizeof(node_t));
-                    node_init($$, GLOBAL, NULL, 1, $1);
-                  }
-       | declaration { $$ = (node_t *) malloc(sizeof(node_t));
-                       node_init($$, GLOBAL, NULL, 1, $1);
-                     }
+global : function 
+                {
+                  $$ = (node_t *) malloc(sizeof(node_t));
+                  node_init($$, GLOBAL, NULL, 1, $1);
+                }
+       | declaration
+                {
+                  $$ = (node_t *) malloc(sizeof(node_t));
+                  node_init($$, GLOBAL, NULL, 1, $1);
+                }
        ;
 
-statement_list : statement { $$ = (node_t *) malloc(sizeof(node_t));
-                             node_init($$, STATEMENT_LIST, NULL, 1, $1);
-                           }
-               | statement_list statement { $$ = (node_t *) malloc(sizeof(node_t));
-                                            node_init($$, STATEMENT_LIST, NULL, 2, $1, $2);
-                                          }
+statement_list : statement
+                {
+                  $$ = (node_t *) malloc(sizeof(node_t));
+                  node_init($$, STATEMENT_LIST, NULL, 1, $1);
+                }
+               | statement_list statement
+                {
+                  $$ = (node_t *) malloc(sizeof(node_t));
+                  node_init($$, STATEMENT_LIST, NULL, 2, $1, $2);
+                }
                ;
 
 print_list : print_item
@@ -202,7 +206,15 @@ relation : expression '=' expression
          ;
 
 
-expression : expression '+' expression
+expression : expression '*' expression
+                { $$ = (node_t *) malloc(sizeof(node_t));
+                  node_init($$, EXPRESSION, "*", 2, $1, $3);
+                }
+           | expression '/' expression
+                { $$ = (node_t *) malloc(sizeof(node_t));
+                  node_init($$, EXPRESSION, "/", 2, $1, $3);
+                }
+           | expression '+' expression
                 { $$ = (node_t *) malloc(sizeof(node_t));
                   node_init($$, EXPRESSION, "+", 2, $1, $3);
                 }
@@ -211,15 +223,7 @@ expression : expression '+' expression
                 { $$ = (node_t *) malloc(sizeof(node_t));
                   node_init($$, EXPRESSION, "-", 2, $1, $3);
                 }
-           | expression '*' expression
-                { $$ = (node_t *) malloc(sizeof(node_t));
-                  node_init($$, EXPRESSION, "*", 2, $1, $3);
-                }
-           | expression '/' expression
-                { $$ = (node_t *) malloc(sizeof(node_t));
-                  node_init($$, EXPRESSION, "/", 2, $1, $3);
-                }
-           | '-' expression
+           | '-' expression %prec UMINUS
                 { $$ = (node_t *) malloc(sizeof(node_t));
                   node_init($$, EXPRESSION, "-", 1, $2);
                 }
