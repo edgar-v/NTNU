@@ -4,7 +4,10 @@ tlhash_t *global_names;
 char **string_list;
 size_t n_string_list = 8, stringc = 0;
 int func_seq = 0;
+int scope = 0;
+tlhash_t **scope_list;
 
+char * local_keys[8] = {"abc", "def", "geh", "asd", "mio", "daq", "kop", "iuu" };
 
 void find_globals_rec(node_t *root)
 {
@@ -89,13 +92,43 @@ find_locals(symbol_t *function, node_t *root)
             .node = function->node,
             .seq = tlhash_size(function->locals) - function->nparms
         };
-        tlhash_insert(function->locals, sym->name, strlen(sym->name)+1, sym);
+
+        symbol_t *scope_sym = malloc(sizeof(symbol_t));
+        scope_sym->name = local_keys[tlhash_size(function->locals)];
+
+        tlhash_insert(scope_list[scope-1], root->data, strlen(root->data)+1, scope_sym);
+
+        tlhash_insert(function->locals, local_keys[tlhash_size(function->locals)], strlen(local_keys[tlhash_size(function->locals)])+1, sym);
     }
 }
 
+symbol_t * local_lookup(symbol_t *function, node_t *root)
+{
+    symbol_t * lookup = NULL;
+    printf("scope: %d\n", scope);
+    for (int i = scope-1; i >= 0; i--) {
+        printf("scope: %d\n", scope);
+        tlhash_lookup(scope_list[i], root->data, strlen(root->data)+1, (void **)&lookup);
+        if (lookup != NULL) {
+            printf("found some shit\n");
+            break;
+        }
+    }
+    printf("in local lookup. %s\n", root->data);
+    if (lookup != NULL) {
+        tlhash_lookup(function->locals, lookup->name, strlen(lookup->name)+1, (void **)&lookup);
+        printf("%s, wtf is this shit\n", lookup->name);
+        return lookup;
+    }
+    else {
+        tlhash_lookup(function->locals, root->data, strlen(root->data)+1, (void **)&lookup);
+        if (lookup == NULL)
+            printf("dafuq\n");
+        return lookup;
+    }
+}
 
-void
-bind_names ( symbol_t *function, node_t *root)
+void bind_names_rec(symbol_t *function, node_t *root)
 {
     if (root->type == STRING_DATA) {
         string_list = realloc(string_list, sizeof(char *) * stringc+1);
@@ -115,23 +148,22 @@ bind_names ( symbol_t *function, node_t *root)
         }
     }
     if (root->type == BLOCK) {
+        scope_list = realloc(scope_list, sizeof(symbol_t *) * scope+1);
+        tlhash_t * new_scope = malloc(sizeof(tlhash_t));
+        tlhash_init(new_scope, 32);
+        scope_list[scope] = new_scope;
+        scope++;
+        printf("scope++ %d\n", scope);
+
         find_locals(function, root);
-        for (int i = 0; i < root->n_children; i++) {
-            if (root->children[i] == NULL)
-                continue;
-            else if (root->children[i]->type == STATEMENT_LIST) {
-                root = root->children[i];
-                break;
-            }
-        }
     }
     if (root->type == IDENTIFIER_DATA) {
         symbol_t *lookup = NULL;
-        tlhash_lookup(function->locals, root->data, strlen(root->data)+1, (void **)&lookup);
+        lookup = local_lookup(function, root);
         if (lookup == NULL) {
+            printf("lookup failed\n");
             tlhash_lookup(global_names, root->data, strlen(root->data)+1, (void **)&lookup);
             if (lookup == NULL) {
-                // Assume it is local var
                 printf("wtf\n");
             }
             else
@@ -141,9 +173,29 @@ bind_names ( symbol_t *function, node_t *root)
         }
     }
     for (int i = 0; i < root->n_children; i++)
-        bind_names(function, root->children[i]);
+        bind_names_rec(function, root->children[i]);
+
+    if (root->type == BLOCK) {
+        printf("-------------------------\n");
+        for (int i = 0; i < scope; i++) {
+            size_t sz = tlhash_size(scope_list[i]);
+            char *keys[sz];
+            tlhash_keys ( scope_list[i], (void **)keys );
+            for ( int j=0; j<sz; j++ )
+                printf ( "Key %d: %s. scope: %d\n", j, keys[j], i);
+        }
+        scope--;
+        printf("---------------------------\n");
+        printf("scope-- %d\n", scope);
+    }
 }
 
+void
+bind_names ( symbol_t *function, node_t *root)
+{
+    scope = 0;
+    bind_names_rec(function, root);
+}
 
 void
 destroy_symtab ( void )
