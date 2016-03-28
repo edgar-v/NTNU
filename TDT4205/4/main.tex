@@ -44,7 +44,16 @@
 \section{Theory}
 \subsection{}
 
-There are shift/reduce conflicts in $I_{10}$ and $I_{12}$ since we don't know if whe should reduce \textbf{a}B to A and EB to D or look for \textbf{b} and shift it. This is because we have no lookahead. If we had a LR(1) automaton the shift/reduce conflicts would be resolved.
+An SDD that involves only synthesized attributes is called S-attributed. A synthesized attribute is an attribute that gets its value from itself or its children. In an L-attributed SDD, every attribute must be either synthesized, or inherited with the rules as follows: suppose there is a production $A \rightarrow X_1X_2\cdots X_n$, and that there is an inhertied attribute $X_ia$ computed by a rule associated with this production. Then the rule may use only:
+
+\begin{enumerate}
+    \item Inhertied attributes associated with the head A.
+    \item Either inherited or synthesized attributed associtated with the occurences of symbols $X_1, X_2,\ldots,X_{i-1}$ located to the left of $X_i$.
+    \item Inherited or synthesized attributes associated with this occurrence of $X_i$ itself, but only in such a way that there are no cycles in a dependency graph formed by the attributes of this $X_i$.
+\end{enumerate}
+
+\subsection{}
+
 
 \begin{figure*}[h]
     \centering
