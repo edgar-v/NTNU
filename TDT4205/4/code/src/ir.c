@@ -21,7 +21,6 @@ void find_globals_rec(node_t *root)
             .type = SYM_FUNCTION
         };
 
-        printf("function: %s\n", sym->name);
 
 
         // Find parameter names
@@ -38,7 +37,6 @@ void find_globals_rec(node_t *root)
                         .node = root,
                         .seq = param_seq++
                     };
-                    printf("parameter: %s\n", local_sym->name);
                     tlhash_insert(local_names, local_sym->name, strlen(local_sym->name)+1, local_sym);
                 }
             }
@@ -55,7 +53,6 @@ void find_globals_rec(node_t *root)
             .name = root->data,
             .type = SYM_GLOBAL_VAR
         };
-        printf("global: %s\n", root->data);
         tlhash_insert(global_names, sym->name, strlen(sym->name)+1, sym);
     }
 
@@ -68,7 +65,6 @@ void find_globals_rec(node_t *root)
 
 void find_globals ( void )
 {
-    node_print(root, 0);
     global_names = malloc ( sizeof(tlhash_t) );
     tlhash_init ( global_names, 32 );
     for (int i = 0; i < root->n_children; i++) {
@@ -105,25 +101,18 @@ find_locals(symbol_t *function, node_t *root)
 symbol_t * local_lookup(symbol_t *function, node_t *root)
 {
     symbol_t * lookup = NULL;
-    printf("scope: %d\n", scope);
     for (int i = scope-1; i >= 0; i--) {
-        printf("scope: %d\n", scope);
         tlhash_lookup(scope_list[i], root->data, strlen(root->data)+1, (void **)&lookup);
         if (lookup != NULL) {
-            printf("found some shit\n");
             break;
         }
     }
-    printf("in local lookup. %s\n", root->data);
     if (lookup != NULL) {
         tlhash_lookup(function->locals, lookup->name, strlen(lookup->name)+1, (void **)&lookup);
-        printf("%s, wtf is this shit\n", lookup->name);
         return lookup;
     }
     else {
         tlhash_lookup(function->locals, root->data, strlen(root->data)+1, (void **)&lookup);
-        if (lookup == NULL)
-            printf("dafuq\n");
         return lookup;
     }
 }
@@ -134,7 +123,7 @@ void bind_names_rec(symbol_t *function, node_t *root)
         string_list = realloc(string_list, sizeof(char *) * stringc+1);
         string_list[stringc] = root->data;
         root->data = malloc(sizeof(size_t *));
-        memcpy(root->data, &stringc, sizeof(size_t *)); // will it break?
+        memcpy(root->data, &stringc, sizeof(size_t *));
         stringc++;
     }
     if (root->type == FUNCTION) {
@@ -153,7 +142,6 @@ void bind_names_rec(symbol_t *function, node_t *root)
         tlhash_init(new_scope, 32);
         scope_list[scope] = new_scope;
         scope++;
-        printf("scope++ %d\n", scope);
 
         find_locals(function, root);
     }
@@ -161,10 +149,8 @@ void bind_names_rec(symbol_t *function, node_t *root)
         symbol_t *lookup = NULL;
         lookup = local_lookup(function, root);
         if (lookup == NULL) {
-            printf("lookup failed\n");
             tlhash_lookup(global_names, root->data, strlen(root->data)+1, (void **)&lookup);
             if (lookup == NULL) {
-                printf("wtf\n");
             }
             else
                 root->entry = lookup;
@@ -172,21 +158,14 @@ void bind_names_rec(symbol_t *function, node_t *root)
             root->entry = lookup;
         }
     }
+    if (root->type == DECLARATION_LIST)
+        return;
     for (int i = 0; i < root->n_children; i++)
         bind_names_rec(function, root->children[i]);
 
+
     if (root->type == BLOCK) {
-        printf("-------------------------\n");
-        for (int i = 0; i < scope; i++) {
-            size_t sz = tlhash_size(scope_list[i]);
-            char *keys[sz];
-            tlhash_keys ( scope_list[i], (void **)keys );
-            for ( int j=0; j<sz; j++ )
-                printf ( "Key %d: %s. scope: %d\n", j, keys[j], i);
-        }
         scope--;
-        printf("---------------------------\n");
-        printf("scope-- %d\n", scope);
     }
 }
 
@@ -200,8 +179,21 @@ bind_names ( symbol_t *function, node_t *root)
 void
 destroy_symtab ( void )
 {
+    // Free locals
+    size_t sz = tlhash_size(global_names);
+    char *keys[sz];
+    tlhash_keys(global_names, (void **)keys);
+    for (int i = 0; i<sz; i++) {
+        symbol_t *lookup = NULL;
+        tlhash_lookup(global_names, keys[i], strlen(keys[i])+1, (void**)&lookup);
+        if (lookup->locals != NULL)
+            tlhash_finalize(lookup->locals);
+            free(lookup->locals);
+    }
     tlhash_finalize ( global_names );
     free ( global_names );
+    free (string_list);
+    free (scope_list);
 }
 
 
