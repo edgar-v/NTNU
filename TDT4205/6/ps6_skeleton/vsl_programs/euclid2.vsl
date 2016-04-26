@@ -1,0 +1,21 @@
+FUNC gcd( a, b )
+BEGIN
+    VAR g
+    VAR f
+    VAR t
+    g := b - a
+    f := lol(a, b)
+    PRINT f
+    f := lol(g, a) + b
+    PRINT f
+    PRINT a
+    PRINT b
+    PRINT g
+    PRINT t
+    RETURN g
+END
+
+FUNC lol(a, b)
+BEGIN
+    RETURN a + b
+END
