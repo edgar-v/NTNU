@@ -19,6 +19,8 @@ static void generate_node(node_t *node);
 static void generate_expression(node_t *node);
 
 symbol_t *current_function = NULL;
+
+// Counters to append to ELSE, WHILE etc. labels
 size_t if_labelc = 0;
 size_t while_labelc = 0;
 
@@ -141,6 +143,7 @@ static void generate_function_call(node_t *expr)
     printf("\tcall\t");
     generate_identifier(expr->children[0]);
     printf("\n");
+    // Restoration of stack is done at end of function
 }
 
 
@@ -214,6 +217,7 @@ generate_expression ( node_t *expr )
 static void generate_if_statement(node_t *statement)
 {
     node_t *relation = statement->children[0];
+
     generate_expression(relation->children[0]);
     printf("\tpushq\t%%rax\n");
     generate_expression(relation->children[1]);
@@ -230,12 +234,9 @@ static void generate_if_statement(node_t *statement)
         case '=':
             printf("\tjne\tELSE%ld\n", if_labelc);
             break;
-        default:
-            printf("unknow relation\n");
-            break;
 
     }
-    size_t this_labelc = if_labelc;
+    size_t this_labelc = if_labelc; // Temporary labelc to use after potential nesting
     if_labelc++;
     generate_node(statement->children[1]);
     printf("\tjmp\tENDIF%ld\n", this_labelc);
@@ -245,6 +246,8 @@ static void generate_if_statement(node_t *statement)
         generate_node(statement->children[2]);
     }
     printf("\tENDIF%ld:\n", this_labelc);
+
+    // Pop the result from comparison to not mess up stack
     printf("\tpopq %%rax\n");
 }
 
@@ -273,7 +276,7 @@ static void generate_while_statement(node_t *statement)
             break;
 
     }
-    size_t this_labelc = while_labelc;
+    size_t this_labelc = while_labelc; // Temporary labelc to use after potential nesting
     while_labelc++;
     generate_node(statement->children[1]);
     printf("\tpopq %%rax\n");
@@ -336,7 +339,7 @@ static void restore_registers()
 {
     // Alignment value
     if ( (tlhash_size(current_function->locals)&1) == 1 )
-        puts ( "\taddq $8, %rsp" );
+        puts ( "\taddq $8, %rsp" ); // same as popq, but without saving the value
 
     // Local vars
     size_t n_local_vars = tlhash_size(current_function->locals) - current_function->nparms;
@@ -373,8 +376,9 @@ generate_node ( node_t *node )
         case WHILE_STATEMENT:
             generate_while_statement(node);
             break;
-        case NULL_STATEMENT:
-            printf("\tjmp\tWHILELOOP%ld\n", while_labelc-1);
+        case NULL_STATEMENT: // CONTINUE_STATEMENT
+            // We only have while-loops
+            printf("\tjmp\tWHILELOOP%ld\n", while_labelc-1); 
             break;
         default:
             RECUR(node);
