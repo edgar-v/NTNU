@@ -19,7 +19,8 @@ static void generate_node(node_t *node);
 static void generate_expression(node_t *node);
 
 symbol_t *current_function = NULL;
-size_t labelc = 0;
+size_t if_labelc = 0;
+size_t while_labelc = 0;
 
 
 static void
@@ -216,34 +217,68 @@ static void generate_if_statement(node_t *statement)
     generate_expression(relation->children[0]);
     printf("\tpushq\t%%rax\n");
     generate_expression(relation->children[1]);
-    printf("\tcmp\t%%rax, -8(%%rsp)\n");
+    printf("\tcmpq\t%%rax, (%%rsp)\n");
 
     switch ( *((char *)relation->data) )
     {
         case '>':
-            printf("\tJNG\tELSE%ld\n", labelc);
+            printf("\tjng\tELSE%ld\n", if_labelc);
             break;
         case '<':
-            printf("\tJNL\tELSE%ld\n", labelc);
+            printf("\tjnl\tELSE%ld\n", if_labelc);
             break;
         case '=':
-            printf("\tJNE\tELSE%ld\n", labelc);
+            printf("\tjne\tELSE%ld\n", if_labelc);
             break;
         default:
             printf("unknow relation\n");
             break;
 
     }
-    size_t this_labelc = labelc;
-    labelc++;
+    size_t this_labelc = if_labelc;
+    if_labelc++;
     generate_node(statement->children[1]);
-    printf("\tJMP\tENDIF%ld\n", this_labelc);
+    printf("\tjmp\tENDIF%ld\n", this_labelc);
     printf("\tELSE%ld:\n", this_labelc);
     if (statement->n_children > 2)
     {
         generate_node(statement->children[2]);
     }
     printf("\tENDIF%ld:\n", this_labelc);
+    printf("\tpopq %%rax\n");
+}
+
+static void generate_while_statement(node_t *statement)
+{
+    printf("\tWHILELOOP%ld:\n", while_labelc);
+    node_t *relation = statement->children[0];
+    generate_expression(relation->children[0]);
+    printf("\tpushq\t%%rax\n");
+    generate_expression(relation->children[1]);
+    printf("\tcmpq\t%%rax, (%%rsp)\n");
+
+    switch ( *((char *)relation->data) )
+    {
+        case '>':
+            printf("\tjng\tENDWHILE%ld\n", while_labelc);
+            break;
+        case '<':
+            printf("\tjnl\tENDWHILE%ld\n", while_labelc);
+            break;
+        case '=':
+            printf("\tjne\tENDWHILE%ld\n", while_labelc);
+            break;
+        default:
+            printf("unknow relation\n");
+            break;
+
+    }
+    size_t this_labelc = while_labelc;
+    while_labelc++;
+    generate_node(statement->children[1]);
+    printf("\tpopq %%rax\n");
+    printf("\tjmp\tWHILELOOP%ld\n", this_labelc);
+    printf("\tENDWHILE%ld:\n", this_labelc);
 }
 
 static void
@@ -267,11 +302,13 @@ generate_print_statement ( node_t *statement )
             case STRING_DATA:
                 printf ( "\tmovq\t$STR%zu, %%rsi\n", *((size_t *)item->data) );
                 ASM2 ( movq, $strout, %rdi );
+                ASM2 ( movq, $0, %rax);
                 ASM1 ( call, printf );
                 break;
             case NUMBER_DATA:
                 printf ("\tmovq\t$%ld, %%rsi\n", *((int64_t *)item->data) );
                 ASM2 ( movq, $intout, %rdi );
+                ASM2 ( movq, $0, %rax);
                 ASM1 ( call, printf );
                 break;
             case IDENTIFIER_DATA:
@@ -279,12 +316,14 @@ generate_print_statement ( node_t *statement )
                 generate_identifier ( item );
                 printf ( ", %%rsi\n" );
                 ASM2 ( movq, $intout, %rdi );
+                ASM2 ( movq, $0, %rax);
                 ASM1 ( call, printf );
                 break;
             case EXPRESSION:
                 generate_expression ( item );
                 ASM2 ( movq, %rax, %rsi );
                 ASM2 ( movq, $intout, %rdi );
+                ASM2 ( movq, $0, %rax);
                 ASM1 ( call, printf );
                 break;
         }
@@ -293,6 +332,22 @@ generate_print_statement ( node_t *statement )
     ASM1 ( call, putchar );
 }
 
+static void restore_registers()
+{
+    // Alignment value
+    if ( (tlhash_size(current_function->locals)&1) == 1 )
+        puts ( "\taddq $8, %rsp" );
+
+    // Local vars
+    size_t n_local_vars = tlhash_size(current_function->locals) - current_function->nparms;
+    for (size_t i=0; i < n_local_vars; i++)
+        puts("\taddq $8, %rsp");
+
+    // Parameters
+    size_t min_parms = MIN(6, current_function->nparms);
+    for ( size_t arg=min_parms; arg > 0; arg-- )
+        printf ( "\tpopq\t%s\n", record[arg-1] );
+}
 
 static void
 generate_node ( node_t *node )
@@ -308,11 +363,19 @@ generate_node ( node_t *node )
             break;
         case RETURN_STATEMENT:
             generate_expression ( node->children[0] );
+            restore_registers();
             ASM0 ( leave );
             ASM0 ( ret );
             break;
         case IF_STATEMENT:
             generate_if_statement(node);
+            break;
+        case WHILE_STATEMENT:
+            generate_while_statement(node);
+            break;
+        case NULL_STATEMENT:
+            printf("\tjmp\tWHILELOOP%ld\n", while_labelc-1);
+            break;
         default:
             RECUR(node);
             break;
@@ -323,6 +386,7 @@ generate_node ( node_t *node )
 static void
 generate_function ( symbol_t *function )
 {
+    current_function = function;
     printf ( "_%s:\n", function->name );
     ASM1 ( pushq, %rbp );
     ASM2 ( movq, %rsp, %rbp );

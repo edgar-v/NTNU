@@ -1,0 +1,246 @@
+ PROGRAM
+ GLOBAL_LIST
+  FUNCTION
+   IDENTIFIER_DATA(fibonacci_iterative)
+   VARIABLE_LIST
+    IDENTIFIER_DATA(n)
+   BLOCK
+    DECLARATION_LIST
+     DECLARATION
+      VARIABLE_LIST
+       IDENTIFIER_DATA(w)
+       IDENTIFIER_DATA(x)
+       IDENTIFIER_DATA(y)
+       IDENTIFIER_DATA(f)
+    STATEMENT_LIST
+     ASSIGNMENT_STATEMENT
+      IDENTIFIER_DATA(w)
+      IDENTIFIER_DATA(n)
+     ASSIGNMENT_STATEMENT
+      IDENTIFIER_DATA(x)
+      NUMBER_DATA(1)
+     ASSIGNMENT_STATEMENT
+      IDENTIFIER_DATA(y)
+      NUMBER_DATA(1)
+     ASSIGNMENT_STATEMENT
+      IDENTIFIER_DATA(f)
+      NUMBER_DATA(1)
+     IF_STATEMENT
+      RELATION(>)
+       IDENTIFIER_DATA(w)
+       NUMBER_DATA(0)
+      BLOCK
+       STATEMENT_LIST
+        IF_STATEMENT
+         RELATION(>)
+          EXPRESSION(-)
+           IDENTIFIER_DATA(w)
+           NUMBER_DATA(1)
+          NUMBER_DATA(0)
+         IF_STATEMENT
+          RELATION(>)
+           EXPRESSION(-)
+            IDENTIFIER_DATA(w)
+            NUMBER_DATA(2)
+           NUMBER_DATA(0)
+          WHILE_STATEMENT
+           RELATION(>)
+            EXPRESSION(-)
+             IDENTIFIER_DATA(w)
+             NUMBER_DATA(2)
+            NUMBER_DATA(0)
+           BLOCK
+            STATEMENT_LIST
+             ASSIGNMENT_STATEMENT
+              IDENTIFIER_DATA(f)
+              EXPRESSION(+)
+               IDENTIFIER_DATA(y)
+               IDENTIFIER_DATA(x)
+             ASSIGNMENT_STATEMENT
+              IDENTIFIER_DATA(x)
+              IDENTIFIER_DATA(y)
+             ASSIGNMENT_STATEMENT
+              IDENTIFIER_DATA(y)
+              IDENTIFIER_DATA(f)
+             ASSIGNMENT_STATEMENT
+              IDENTIFIER_DATA(w)
+              EXPRESSION(-)
+               IDENTIFIER_DATA(w)
+               NUMBER_DATA(1)
+      ASSIGNMENT_STATEMENT
+       IDENTIFIER_DATA(f)
+       NUMBER_DATA(0)
+     PRINT_STATEMENT
+      STRING_DATA("Fibonacci number #")
+      IDENTIFIER_DATA(n)
+      STRING_DATA("is")
+      IDENTIFIER_DATA(f)
+     RETURN_STATEMENT
+      NUMBER_DATA(0)
+.section .rodata
+intout: .string "%ld "
+strout: .string "%s "
+errout: .string "Wrong number of arguments"
+STR0: .string "Fibonacci number #"
+STR1: .string "is"
+.section .data
+.globl main
+.section .text
+main:
+	pushq %rbp
+	movq %rsp, %rbp
+	subq $1, %rdi
+	cmpq	$1,%rdi
+	jne ABORT
+	cmpq $0, %rdi
+	jz SKIP_ARGS
+	movq %rdi, %rcx
+	addq $8, %rsi
+PARSE_ARGV:
+	pushq %rcx
+	pushq %rsi
+	movq (%rsi), %rdi
+	movq $0, %rsi
+	movq $10, %rdx
+	call strtol
+	popq %rsi
+	popq %rcx
+	pushq %rax
+	subq $8, %rsi
+	loop PARSE_ARGV
+	popq	%rdi
+SKIP_ARGS:
+	call	_fibonacci_iterative
+	jmp END
+ABORT:
+	movq $errout, %rdi
+	call puts
+END:
+	movq %rax, %rdi
+	call exit
+_fibonacci_iterative:
+	pushq	%rbp
+	movq	%rsp, %rbp
+	pushq	%rdi
+	pushq	$0
+	pushq	$0
+	pushq	$0
+	pushq	$0
+	pushq	$0
+	movq	-8(%rbp), %rax
+	movq	%rax, -16(%rbp)
+	movq	$1, %rax
+	movq	%rax, -24(%rbp)
+	movq	$1, %rax
+	movq	%rax, -32(%rbp)
+	movq	$1, %rax
+	movq	%rax, -40(%rbp)
+	movq	-16(%rbp), %rax
+	pushq	%rax
+	movq	$0, %rax
+	cmpq	%rax, (%rsp)
+	jng	ELSE0
+	movq	-16(%rbp), %rax
+	pushq	%rax
+	movq	$1, %rax
+	subq	%rax, (%rsp)
+	popq	%rax
+	pushq	%rax
+	movq	$0, %rax
+	cmpq	%rax, (%rsp)
+	jng	ELSE1
+	movq	-16(%rbp), %rax
+	pushq	%rax
+	movq	$2, %rax
+	subq	%rax, (%rsp)
+	popq	%rax
+	pushq	%rax
+	movq	$0, %rax
+	cmpq	%rax, (%rsp)
+	jng	ELSE2
+	WHILELOOP0:
+	movq	-16(%rbp), %rax
+	pushq	%rax
+	movq	$2, %rax
+	subq	%rax, (%rsp)
+	popq	%rax
+	pushq	%rax
+	movq	$0, %rax
+	cmpq	%rax, (%rsp)
+	jng	ENDWHILE0
+	movq	-32(%rbp), %rax
+	pushq	%rax
+	movq	-24(%rbp), %rax
+	addq	%rax, (%rsp)
+	popq	%rax
+	movq	%rax, -40(%rbp)
+	movq	-32(%rbp), %rax
+	movq	%rax, -24(%rbp)
+	movq	-40(%rbp), %rax
+	movq	%rax, -32(%rbp)
+	movq	-16(%rbp), %rax
+	pushq	%rax
+	movq	$1, %rax
+	subq	%rax, (%rsp)
+	popq	%rax
+	movq	%rax, -16(%rbp)
+	jmp	WHILELOOP0
+	ENDWHILE0:
+	popq %rax
+	movq	-32(%rbp), %rax
+	pushq	%rax
+	movq	-24(%rbp), %rax
+	addq	%rax, (%rsp)
+	popq	%rax
+	movq	%rax, -40(%rbp)
+	movq	-32(%rbp), %rax
+	movq	%rax, -24(%rbp)
+	movq	-40(%rbp), %rax
+	movq	%rax, -32(%rbp)
+	movq	-16(%rbp), %rax
+	pushq	%rax
+	movq	$1, %rax
+	subq	%rax, (%rsp)
+	popq	%rax
+	movq	%rax, -16(%rbp)
+	jmp	ENDIF2
+	ELSE2:
+	ENDIF2:
+	popq %rax
+	jmp	ENDIF1
+	ELSE1:
+	ENDIF1:
+	popq %rax
+	jmp	ENDIF0
+	ELSE0:
+	movq	$0, %rax
+	movq	%rax, -40(%rbp)
+	ENDIF0:
+	popq %rax
+	movq	$STR0, %rsi
+	movq	$strout, %rdi
+	movq	$0, %rax
+	call	printf
+	movq	-8(%rbp), %rsi
+	movq	$intout, %rdi
+	movq	$0, %rax
+	call	printf
+	movq	$STR1, %rsi
+	movq	$strout, %rdi
+	movq	$0, %rax
+	call	printf
+	movq	-40(%rbp), %rsi
+	movq	$intout, %rdi
+	movq	$0, %rax
+	call	printf
+	movq	$'\n', %rdi
+	call	putchar
+	movq	$0, %rax
+	addq $8, %rsp
+	addq $8, %rsp
+	addq $8, %rsp
+	addq $8, %rsp
+	addq $8, %rsp
+	popq	%rdi
+	leave
+	ret

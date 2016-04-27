@@ -1,21 +1,15 @@
 FUNC gcd( a, b )
 BEGIN
     VAR g
-    VAR f
-    VAR t
-    g := b - a
-    f := lol(a, b)
-    PRINT f
-    f := lol(g, a) + b
-    PRINT f
-    PRINT a
-    PRINT b
-    PRINT g
-    PRINT t
+    g := 0
+    WHILE g < 10 DO
+    BEGIN
+        g := g + 1
+        IF g > 5 THEN
+        BEGIN
+            CONTINUE
+        END
+        PRINT g
+    END
     RETURN g
-END
-
-FUNC lol(a, b)
-BEGIN
-    RETURN a + b
 END
