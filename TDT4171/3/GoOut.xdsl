@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<smile version="1.0" id="Network1" numsamples="1000" discsamples="10000">
+	<nodes>
+		<decision id="GoOutOnFriday">
+			<state id="Yes" />
+			<state id="No" />
+		</decision>
+		<decision id="Work_Remaining">
+			<state id="Started" />
+			<state id="Halfway" />
+			<state id="Done" />
+		</decision>
+		<decision id="Days_left_til_exercise_deadline">
+			<state id="WeekAfterThat" />
+			<state id="NextWeek" />
+			<state id="Tomorrow" />
+		</decision>
+		<cpt id="Finishing_Exercice">
+			<state id="Yes" />
+			<state id="No" />
+			<parents>Work_Remaining GoOutOnFriday Days_left_til_exercise_deadline</parents>
+			<probabilities>0.95 0.05 0.8 0.2 0.05 0.95 0.95 0.05 0.9 0.1 0.6 0.4 0.95 0.05 0.9 0.1 0.2 0.8 0.95 0.05 0.95 0.05 0.9 0.1 1 0 1 0 1 0 1 0 1 0 1 0</probabilities>
+		</cpt>
+		<cpt id="Worked_this_week">
+			<state id="Yes" />
+			<state id="No" />
+			<probabilities>0.9 0.1</probabilities>
+		</cpt>
+		<cpt id="Went_out_Thursday">
+			<state id="Yes" />
+			<state id="No" />
+			<probabilities>0.2 0.8</probabilities>
+		</cpt>
+		<cpt id="Tired">
+			<state id="Yes" />
+			<state id="No" />
+			<parents>GoOutOnFriday Worked_this_week Went_out_Thursday</parents>
+			<probabilities>0.95 0.05 0.8 0.2 0.9 0.1 0.75 0.25 0.3 0.7 0.1 0.9 0.1 0.9 0.05 0.95</probabilities>
+		</cpt>
+		<decision id="Have_plans_Saturday">
+			<state id="Yes" />
+			<state id="No" />
+		</decision>
+		<cpt id="Will_make_plans_Saturday">
+			<state id="Yes" />
+			<state id="No" />
+			<parents>Tired Have_plans_Saturday</parents>
+			<probabilities>0.5 0.5 1 0 0.95 0.05 1 0</probabilities>
+		</cpt>
+		<cpt id="Amount_of_money">
+			<state id="NearlyBroke" />
+			<state id="Some" />
+			<state id="Rich" />
+			<parents>GoOutOnFriday Worked_this_week</parents>
+			<probabilities>0.2 0.7 0.1 0.5 0.4 0.1 0.05 0.65 0.3 0.1 0.7 0.2</probabilities>
+		</cpt>
+		<cpt id="Friends_going_out">
+			<state id="Yes" />
+			<state id="No" />
+			<probabilities>0.9 0.1</probabilities>
+		</cpt>
+		<cpt id="Had_a_good_time">
+			<state id="Yes" />
+			<state id="No" />
+			<parents>GoOutOnFriday Friends_going_out</parents>
+			<probabilities>0.9 0.1 0.6 0.4 0.1 0.9 0.2 0.8</probabilities>
+		</cpt>
+		<utility id="Quality_of_life">
+			<parents>Finishing_Exercice Tired Will_make_plans_Saturday Amount_of_money Had_a_good_time</parents>
+			<utilities>18 6 23 11 25 13 8 -4 13 1 15 3 20 8 25 13 27 15 10 -2 15 3 17 5 0 -12 5 -7 7 -5 -10 -22 -5 -17 -3 -15 2 -10 7 -5 9 -3 -8 -20 -3 -15 -1 -13</utilities>
+		</utility>
+	</nodes>
+	<extensions>
+		<genie version="1.0" app="GeNIe 2.0.5590.0" name="Network1" faultnameformat="nodestate">
+			<node id="GoOutOnFriday">
+				<name>Go out on Friday</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>866 763 957 789</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Quality_of_life">
+				<name>Quality of life</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>909 303 991 335</position>
+				<barchart active="true" width="192" height="64" />
+			</node>
+			<node id="Finishing_Exercice">
+				<name>Will finish Exercice in time</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1290 292 1389 353</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Days_left_til_exercise_deadline">
+				<name>Deadline</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1300 146 1377 200</position>
+				<barchart active="true" width="128" height="72" />
+			</node>
+			<node id="Work_Remaining">
+				<name>Progress</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1492 309 1584 335</position>
+				<barchart active="true" width="128" height="72" />
+			</node>
+			<node id="Tired">
+				<name>Tired</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>560 289 664 354</position>
+				<barchart active="true" />
+			</node>
+			<node id="Worked_this_week">
+				<name>Worked this week</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>734 386 831 446</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Went_out_Thursday">
+				<name>Went out Thursday</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>345 289 448 353</position>
+				<barchart active="true" />
+			</node>
+			<node id="Will_make_plans_Saturday">
+				<name>Will make plans Saturday</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>566 128 658 185</position>
+				<barchart active="true" />
+			</node>
+			<node id="Amount_of_money">
+				<name>Amount of money</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>790 494 885 553</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Have_plans_Saturday">
+				<name>Have plans Saturday</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>340 119 454 187</position>
+				<barchart active="true" />
+			</node>
+			<node id="Had_a_good_time">
+				<name>Had a good time</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>947 496 1036 551</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Friends_going_out">
+				<name>Friends going out</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1051 398 1146 457</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+		</genie>
+	</extensions>
+</smile>

@@ -1,0 +1,136 @@
+\documentclass{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage{enumerate}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{apacite}
+\usepackage{blindtext}
+
+\usepackage[margin=1cm]{caption}
+
+\setlength{\parindent}{0.0in}
+\setlength{\parskip}{0.1in}
+
+
+\title{TDT4171 Artificial Intelligence Methods\\ Exercise 3}
+\author{Edgar Vedvik -- edgarmv@stud.ntnu.no}
+\date{2017-03-03}
+
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+    \blindtext
+    
+\end{abstract}
+
+\section*{Introduction}
+    In this exercise we were tasked with creating a decision support system for
+    a decision problem of our own choice. The exercice listed some examples,
+    and one of the examples was exactly a problem I was facing this week:
+    \emph{Should I go out on Friday or stay home doing this exercise?} Next week
+    I had many exercises that were due. I also had plans to go to an event
+    Saturday evening. Therefore I had good reason to stay home. However, as
+    we all know, staying home Friday night doing exercises, while all your
+    friends are out, isn't much fun.
+    
+    The exercise required that we had to measure the success of our choice. I
+    measured this as the quality of life I would achieve when making this
+    choice. The exercise also required that this decision problem had to
+    contain at least 10 variables, and that half of them would have to be
+    uncertain at the time the decision was made.
+
+    The decision problem was modelled in GeNIe, which is a graphical user
+    interface for solving just such a problem. The interface was relatively
+    easy to work with once I learned how to create nodes and connect them
+    together and adding probabilities.
+
+\section*{Model}
+
+    Once I had chosen what decision problem to model, and my utility function.
+    I followed the steps recommended in \citeA[pp. 634]{artificial} to create
+    the model. The first step was to create a causal model. This meant making a
+    dependency graph, with lines between each dependency. I identified the
+    following variables as directly affecting my quality of life:
+    \begin{itemize}
+        \item Will I finish the exercise in time?
+        \item Did I have a good time Friday night?
+        \item The amount of money I have.
+        \item My physical state (hungover / tired / well rested)
+    \end{itemize}
+
+    All of these variables are influenced by many other variables. Including
+    all of the variables is not in the scope of this report, but I have
+    included those I found most important:
+
+    \begin{itemize}
+        \item Exercise deadline.
+        \item How much of the exercise have i already done (progress).
+        \item Are my friends going out on Friday?
+        \item Did I work this week?
+        \item Did I go out on Thursday?
+        \item Do I have plans on Saturday?
+        \item Will I make those plans?
+    \end{itemize}
+
+    \begin{figure}[ht] \centering
+        \centering
+        \includegraphics[width=\linewidth]{drawing.pdf}
+        \caption{The model of the decision problem. The green rectangles are
+        observable variables.  The yellow ellipses are unknown at the time
+        the decision is made, and the blue hexagon is the utility.}
+    \label{fig:model} \end{figure}
+
+    After adding all those variables and identifying how they relate to each
+    other I ended up with the result shown in Figure \ref{fig:model}.
+
+    The second step was to simplify and remove variables that did not affect the
+    decision. Because my model was so simple and all variables affected my
+    utility function, I skipped this step.
+
+    Next step was to assign probability to each unknown state. Some of these
+    were simple, like whether or not my friends are going out, if I have to
+    work this week and the probability of going out on a Thursday. None of
+    these variables depended on other variables, making figuring out the
+    probability as easy as just remembering how often these things happen.
+
+    With all the edge variables and decisions added, the more complex variables
+    had to be created. These are also based mostly on empirical evidence. The
+    most complex probability table was the \emph{Will finish exercise in time},
+    which depended on when the deadline was, how far I had already gotten and
+    whether or not I would go out on Friday. Since both deadline and progress
+    had three values to choose from, making it an 18x2 big probability table. A
+    small piece of it can be seen in Table \ref{tab:prob}.
+
+    \begin{table}[ht!]
+        \centering
+        \begin{tabular}{| c | c | c | c |}\hline
+            Progress & \multicolumn{3}{|c|}{Started}\\ \hline
+
+            Go out on Friday & \multicolumn{3}{|c|}{Yes} \\ \hline
+
+            Deadline & Two weeks & Next week & Tomorrow\\ \hline
+
+            Yes & 0.95 & 0.8 & 0.05\\ \hline
+
+            No & 0.05 & 0.2 & 0.95\\ \hline
+        \end{tabular}
+        \caption{Probability of finishing the exercise before deadline}
+        \label{tab:prob}
+    \end{table}
+
+
+
+
+\section*{Results}
+    \blindtext
+
+\section*{Discussion}
+    \blindtext
+
+\bibliography{references}
+\bibliographystyle{apacite}
+
+\end{document}
