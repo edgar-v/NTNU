@@ -24,11 +24,11 @@
 
 \section*{Introduction}
     In this exercise we were tasked with creating a decision support system for
-    a decision problem of our own choice. The exercice listed some examples,
+    a decision problem of our own choice. The exercise listed some examples,
     and one of the examples was exactly a problem I was facing this week:
     \emph{Should I go out on Friday or stay home doing this exercise?} Next week
     I had many exercises that were due. I also had plans to go to an event
-    Saturday evening. Therefore I had good reason to stay home. However, as
+    Saturday evening. Therefore, I had good reason to stay home. However, as
     we all know, staying home Friday night doing exercises, while all your
     friends are out, isn't much fun.
     
@@ -39,7 +39,7 @@
     uncertain at the time the decision was made.
 
     The decision problem was modelled in GeNIe, which is a graphical user
-    interface for solving just such a problem. The interface was relatively
+    interface for solving just such a problem. GeNIe's interface was relatively
     easy to work with once I learned how to create nodes and connect them
     together and adding probabilities.
 
@@ -58,7 +58,7 @@
     \end{itemize}
 
     All of these variables are influenced by many other variables. Including
-    all of the variables is not in the scope of this report, but I have
+    all the variables is not in the scope of this report, but I have
     included those I found most important:
 
     \begin{itemize}
@@ -71,7 +71,7 @@
         \item Will I make those plans?
     \end{itemize}
 
-    \begin{figure}[ht] \centering
+    \begin{figure}[ht]
         \centering
         \includegraphics[width=\linewidth]{drawing.pdf}
         \caption{The model of the decision problem. The green rectangles are
@@ -79,15 +79,24 @@
         the decision is made, and the blue hexagon is the utility.}
     \label{fig:model} \end{figure}
 
-    After adding all those variables and identifying how they relate to each
-    other I ended up with the result shown in Figure \ref{fig:model}.
+    After adding all the variables and identifying the dependencies between
+    them I ended up with the model seen in Figure \ref{fig:model}. The majority
+    of the dependencies are self-explanatory. Such as why \emph{Will finish
+    exercise on time} depends on when the deadline is and how much of the
+    exercise I have already done. One might think that it should also depend on
+    whether I worked this week as well, since that would take time away from
+    doing exercises. The reason why this is not the case is because when I
+    work, I work mondays. and therefore it becomes too long ago for it to
+    matter. If the exercise is due next week then it will be affected by work
+    that week, but not this week. 
+
 
     The second step was to simplify and remove variables that did not affect the
     decision. Because my model was so simple and all variables affected my
     utility function, I skipped this step.
 
     Next step was to assign probability to each unknown state. Some of these
-    were simple, like whether or not my friends are going out, if I have to
+    were simple, like whether my friends are going out, if I have to
     work this week and the probability of going out on a Thursday. None of
     these variables depended on other variables, making figuring out the
     probability as easy as just remembering how often these things happen.
@@ -95,33 +104,44 @@
     With all the edge variables and decisions added, the more complex variables
     had to be created. These are also based mostly on empirical evidence. The
     most complex probability table was the \emph{Will finish exercise in time},
-    which depended on when the deadline was, how far I had already gotten and
-    whether or not I would go out on Friday. Since both deadline and progress
-    had three values to choose from, making it an 18x2 big probability table. A
+    which depended on when the deadline was, my progress on the exercise and
+    whether I would go out on Friday. Since both deadline and progress had
+    three values to choose from, making it a 18x2 big probability table. A
     small piece of it can be seen in Table \ref{tab:prob}.
 
     \begin{table}[ht]
         \centering
         \begin{tabular}{| c | c | c | c |}\hline
-            Progress & \multicolumn{3}{|c|}{Started}\\ \hline
+            Progress & \multicolumn{3}{|c|}{Halfway}\\ \hline
 
-            Go out on Friday & \multicolumn{3}{|c|}{Yes} \\ \hline
+            Go out on Friday & \multicolumn{3}{|c|}{No} \\ \hline
 
             Deadline & Two weeks & Next week & Tomorrow\\ \hline
 
-            Yes & 0.95 & 0.8 & 0.05\\ \hline
+            Yes & 0.95 & 0.95 & 0.9\\ \hline
 
-            No & 0.05 & 0.2 & 0.95\\ \hline
+            No & 0.05 & 0.05 & 0.1\\ \hline
         \end{tabular}
         \caption{Probability of finishing the exercise before deadline.}
         \label{tab:prob}
     \end{table}
 
+    Whether the deadline is next week or the week after, almost doesn't matter.
+    I normally don't start exercises weeks ahead of time, so for me not to make
+    it in time, depends on other factors that I have not added to my model
+    (such as sickness). If the exercise was due on Monday, for example, then
+    there should be a difference, but since I am already half way done, I
+    should have more than enough time. We also see that even if the exercise
+    was due tomorrow, the probability of making it is still very high. This is
+    because I have no problem pulling an all-nighter if I have to. 
+
     The next step was to assign utilities. I decided to use an additive utility
-    model becaused that seemed natural for this problem. My quality of life is
+    model because it seemed natural for this problem. My quality of life is
     improved more by finishing the exercise than being well rested for example.
     The value of each variable affecting my quality of life can be seen in
-    Table \ref{tab:utility}. 
+    Table \ref{tab:utility}. All of these are taken from my personal experience
+    of what I value most in life. I decided that each value should be in the
+    range $\left[ -10, 10 \right]$.
 
     \begin{table}[ht]
         \centering
@@ -133,7 +153,7 @@
             Money(Broke, Some, Rich) & -1, 4, 6\\\hline
             Had a good time & 6\\\hline
         \end{tabular}
-        \caption{How much the various variables affect my quality of life.}
+        \caption{How much the variables affect my quality of life.}
         \label{tab:utility}
     \end{table}
     
@@ -147,7 +167,7 @@
 
     \citeA[pp. 634]{artificial} suggests two more steps: verify and refine the
     model and perform sensitivity analysis. These two steps were done in
-    parrallell with the previous steps. Whenever a variable got a value that
+    parallel with the previous steps. Whenever a variable got a value that
     did not match with my perception of it, I went back and adjusted the
     probabilities.
 
@@ -200,7 +220,7 @@
         \label{tab:saturday}
     \end{table}
 
-    If I have no plans on going out on Saturday, going out on Friday increases
+    If I do not plan on going out on Saturday, going out on Friday increases
     by about 4. This makes sense since I usually go out on at least Friday or
     Saturday. There is also a slight increase in staying home if I have no plan
     on Saturday. This points to that my model is not perfect, since ideally
@@ -216,7 +236,7 @@
     Saturday I expected the model to show a slight decrease in life quality if
     I then chose to not go out on Friday. However, my model gave it a slight
     increase. This is because, in my model, the quality of life is not
-    dependent on a \emph{did i go out this weekend} variable, which it should
+    dependent on a \emph{did I go out this weekend} variable, which it should
     have been.
 
 
