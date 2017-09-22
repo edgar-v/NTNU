@@ -1,0 +1,3 @@
+1. position: absolute gives the position relative to the next parent element with relative or absolute positioning or <html>.
+position: fixed gives the position relative to the viewport.
+2. for example: ul ul li:nth-child(3) {}

@@ -1,0 +1,17 @@
+header {
+    font-family: Helvetica;
+}
+
+body {
+    background-color: #EFEFEF;
+}
+
+p {
+    font-family: "Helvetica", Times, serif;
+}
+
+img {
+    max-width: 150px;
+    border: 1px solid;
+    border-color: black;
+}

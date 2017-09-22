@@ -1,0 +1,31 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Part 4 */
+
+ul {
+    list-style-type: square;
+}
+
+ul li:last-child  {
+    color: red;
+}
+
+.wrapper {
+    flex: 1 0 auto;
+}
+
+.footer {
+  flex-shrink: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+}
