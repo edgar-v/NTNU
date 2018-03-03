@@ -1,0 +1,5 @@
+Username, password and admin status is stored as plaintext cookies.
+Shoutbox has javascript injection. (XSS)
+Sql fingerprinting in login. Error messages are displayed to user.
+CSRF vulernabilities on products
+No https, man in the middle

@@ -1,0 +1,631 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> /home/edgarmv/dev/NTNU/TDT4165/scala/task3/target/scala-2.10/classes
+compile options:
+0 items
+javac options:
+0 items
+compiler version:
+1 items
+0 -> 2.10.6
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+34 items
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> /home/edgarmv/dev/NTNU/TDT4165/scala/task3/target/scala-2.10/classes/Account$$anonfun$allTransactionsCompleted$1.class
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> /home/edgarmv/dev/NTNU/TDT4165/scala/task3/target/scala-2.10/classes/Account$$anonfun$receive$1.class
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> /home/edgarmv/dev/NTNU/TDT4165/scala/task3/target/scala-2.10/classes/Account$.class
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> /home/edgarmv/dev/NTNU/TDT4165/scala/task3/target/scala-2.10/classes/Account$Balance.class
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> /home/edgarmv/dev/NTNU/TDT4165/scala/task3/target/scala-2.10/classes/Account.class
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> /home/edgarmv/dev/NTNU/TDT4165/scala/task3/target/scala-2.10/classes/BalanceRequest$.class
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> /home/edgarmv/dev/NTNU/TDT4165/scala/task3/target/scala-2.10/classes/BalanceRequest.class
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> /home/edgarmv/dev/NTNU/TDT4165/scala/task3/target/scala-2.10/classes/TransactionRequest$.class
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> /home/edgarmv/dev/NTNU/TDT4165/scala/task3/target/scala-2.10/classes/TransactionRequest.class
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> /home/edgarmv/dev/NTNU/TDT4165/scala/task3/target/scala-2.10/classes/TransactionRequestReceipt$.class
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> /home/edgarmv/dev/NTNU/TDT4165/scala/task3/target/scala-2.10/classes/TransactionRequestReceipt.class
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> /home/edgarmv/dev/NTNU/TDT4165/scala/task3/target/scala-2.10/classes/Bank$$anonfun$receive$1.class
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> /home/edgarmv/dev/NTNU/TDT4165/scala/task3/target/scala-2.10/classes/Bank.class
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> /home/edgarmv/dev/NTNU/TDT4165/scala/task3/target/scala-2.10/classes/CreateAccountRequest$.class
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> /home/edgarmv/dev/NTNU/TDT4165/scala/task3/target/scala-2.10/classes/CreateAccountRequest.class
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> /home/edgarmv/dev/NTNU/TDT4165/scala/task3/target/scala-2.10/classes/GetAccountRequest$.class
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> /home/edgarmv/dev/NTNU/TDT4165/scala/task3/target/scala-2.10/classes/GetAccountRequest.class
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> /home/edgarmv/dev/NTNU/TDT4165/scala/task3/target/scala-2.10/classes/IdentifyActor$.class
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> /home/edgarmv/dev/NTNU/TDT4165/scala/task3/target/scala-2.10/classes/IdentifyActor.class
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/BankManager.scala -> /home/edgarmv/dev/NTNU/TDT4165/scala/task3/target/scala-2.10/classes/BankManager$$anon$1.class
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/BankManager.scala -> /home/edgarmv/dev/NTNU/TDT4165/scala/task3/target/scala-2.10/classes/BankManager$$anon$2.class
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/BankManager.scala -> /home/edgarmv/dev/NTNU/TDT4165/scala/task3/target/scala-2.10/classes/BankManager$.class
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/BankManager.scala -> /home/edgarmv/dev/NTNU/TDT4165/scala/task3/target/scala-2.10/classes/BankManager.class
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Main.scala -> /home/edgarmv/dev/NTNU/TDT4165/scala/task3/target/scala-2.10/classes/Main$$anon$1.class
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Main.scala -> /home/edgarmv/dev/NTNU/TDT4165/scala/task3/target/scala-2.10/classes/Main$.class
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Main.scala -> /home/edgarmv/dev/NTNU/TDT4165/scala/task3/target/scala-2.10/classes/Main.class
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Transaction.scala -> /home/edgarmv/dev/NTNU/TDT4165/scala/task3/target/scala-2.10/classes/Transaction$.class
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Transaction.scala -> /home/edgarmv/dev/NTNU/TDT4165/scala/task3/target/scala-2.10/classes/Transaction.class
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Transaction.scala -> /home/edgarmv/dev/NTNU/TDT4165/scala/task3/target/scala-2.10/classes/TransactionStatus$.class
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Transaction.scala -> /home/edgarmv/dev/NTNU/TDT4165/scala/task3/target/scala-2.10/classes/TransactionStatus.class
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/exceptions/IllegalAmountException.scala -> /home/edgarmv/dev/NTNU/TDT4165/scala/task3/target/scala-2.10/classes/exceptions/IllegalAmountException$.class
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/exceptions/IllegalAmountException.scala -> /home/edgarmv/dev/NTNU/TDT4165/scala/task3/target/scala-2.10/classes/exceptions/IllegalAmountException.class
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/exceptions/NoSufficientFundsException.scala -> /home/edgarmv/dev/NTNU/TDT4165/scala/task3/target/scala-2.10/classes/exceptions/NoSufficientFundsException$.class
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/exceptions/NoSufficientFundsException.scala -> /home/edgarmv/dev/NTNU/TDT4165/scala/task3/target/scala-2.10/classes/exceptions/NoSufficientFundsException.class
+binary dependencies:
+17 items
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> /home/edgarmv/.ivy2/cache/com.typesafe.akka/akka-actor_2.10/jars/akka-actor_2.10-2.4-SNAPSHOT.jar
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> /home/edgarmv/.sbt/boot/scala-2.10.6/lib/scala-library.jar
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> /usr/lib/jvm/java-8-openjdk/jre/lib/rt.jar
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> /home/edgarmv/.ivy2/cache/com.typesafe.akka/akka-actor_2.10/jars/akka-actor_2.10-2.4-SNAPSHOT.jar
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> /home/edgarmv/.sbt/boot/scala-2.10.6/lib/scala-library.jar
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> /usr/lib/jvm/java-8-openjdk/jre/lib/rt.jar
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/BankManager.scala -> /home/edgarmv/.ivy2/cache/com.typesafe.akka/akka-actor_2.10/jars/akka-actor_2.10-2.4-SNAPSHOT.jar
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/BankManager.scala -> /home/edgarmv/.sbt/boot/scala-2.10.6/lib/scala-library.jar
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/BankManager.scala -> /usr/lib/jvm/java-8-openjdk/jre/lib/rt.jar
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Main.scala -> /home/edgarmv/.sbt/boot/scala-2.10.6/lib/scala-library.jar
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Main.scala -> /usr/lib/jvm/java-8-openjdk/jre/lib/rt.jar
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Transaction.scala -> /home/edgarmv/.sbt/boot/scala-2.10.6/lib/scala-library.jar
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Transaction.scala -> /usr/lib/jvm/java-8-openjdk/jre/lib/rt.jar
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/exceptions/IllegalAmountException.scala -> /home/edgarmv/.sbt/boot/scala-2.10.6/lib/scala-library.jar
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/exceptions/IllegalAmountException.scala -> /usr/lib/jvm/java-8-openjdk/jre/lib/rt.jar
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/exceptions/NoSufficientFundsException.scala -> /home/edgarmv/.sbt/boot/scala-2.10.6/lib/scala-library.jar
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/exceptions/NoSufficientFundsException.scala -> /usr/lib/jvm/java-8-openjdk/jre/lib/rt.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+8 items
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> /home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> /home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/BankManager.scala
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> /home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Transaction.scala
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> /home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/exceptions/IllegalAmountException.scala
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> /home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/exceptions/NoSufficientFundsException.scala
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> /home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> /home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/BankManager.scala
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> /home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Transaction.scala
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+0 items
+inheritance external dependencies:
+0 items
+class names:
+34 items
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> Account
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> Account$
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> Account$$anonfun$allTransactionsCompleted$1
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> Account$$anonfun$receive$1
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> Account$Balance
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> BalanceRequest
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> BalanceRequest$
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> TransactionRequest
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> TransactionRequest$
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> TransactionRequestReceipt
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> TransactionRequestReceipt$
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> Bank
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> Bank$$anonfun$receive$1
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> CreateAccountRequest
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> CreateAccountRequest$
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> GetAccountRequest
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> GetAccountRequest$
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> IdentifyActor
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> IdentifyActor$
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/BankManager.scala -> BankManager
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/BankManager.scala -> BankManager$
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/BankManager.scala -> BankManager$$anon$1
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/BankManager.scala -> BankManager$$anon$2
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Main.scala -> Main
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Main.scala -> Main$
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Main.scala -> Main$$anon$1
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Transaction.scala -> Transaction
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Transaction.scala -> Transaction$
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Transaction.scala -> TransactionStatus
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Transaction.scala -> TransactionStatus$
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/exceptions/IllegalAmountException.scala -> exceptions.IllegalAmountException
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/exceptions/IllegalAmountException.scala -> exceptions.IllegalAmountException$
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/exceptions/NoSufficientFundsException.scala -> exceptions.NoSufficientFundsException
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/exceptions/NoSufficientFundsException.scala -> exceptions.NoSufficientFundsException$
+used names:
+345 items
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> !
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> &&
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> +
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> -
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> ->
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> <
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> <init>
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> <repeated>
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> ==
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> >
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> ???
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> A
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> A1
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> AbstractFunction0
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> AbstractFunction2
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> AbstractFunction3
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> AbstractPartialFunction
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> Account
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> Actor
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> ActorRef
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> Any
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> AnyRef
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> ArrowAssoc
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> B
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> B1
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> Balance
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> BalanceRequest
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> BankManager
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> Boolean
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> Double
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> FAILED
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> Function1
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> HashMap
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> IllegalAmountException
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> IndexOutOfBoundsException
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> Int
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> Iterable
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> Iterator
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> List
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> NoSufficientFundsException
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> None
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> Nothing
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> Object
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> Option
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> Predef
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> Product
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> SUCCESS
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> ScalaActorRef
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> ScalaRunTime
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> Serializable
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> Some
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> Statics
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> String
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> T
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> T0
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> T1
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> T2
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> T3
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> Throwable
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> Transaction
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> TransactionRequest
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> TransactionRequestReceipt
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> TransactionStatus
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> Tuple2
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> Tuple3
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> U
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> Unit
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> Value
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> _hashCode
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> _toString
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> accountId
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> accountNumber
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> actor
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> actorRef2Scala
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> akka
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> allTransactionsCompleted
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> amount
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> amount_=
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> any2ArrowAssoc
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> anyHash
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> apply
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> asInstanceOf
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> balance
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> bankId
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> collection
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> contains
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> deposit
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> doubleHash
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> eq
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> exceptions
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> finalizeHash
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> findBank
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> foreach
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> from
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> get
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> getBalanceAmount
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> getFullAddress
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> i
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> id
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> immutable
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> initialBalance
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> isCompleted
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> isInstanceOf
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> isSuccessful
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> mix
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> package
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> receiptReceived_=
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> reserveTransaction
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> runtime
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> scala
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> self
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> sendTransactionToBank
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> sender
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> status
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> status_=
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> synchronized
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> t
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> toAccountNumber
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> toList
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> toString
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> transaction
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> transactionId
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> transactions
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> transactions_=
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> typedProductIterator
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> unary_!
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> unchecked
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> values
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> withdraw
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> ||
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> !
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> &&
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> <=
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> <init>
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> ==
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> ???
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> A
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> A1
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> AbstractFunction0
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> AbstractFunction1
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> AbstractPartialFunction
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> Actor
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> ActorRef
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> Any
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> AnyRef
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> AtomicInteger
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> B1
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> Bank
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> BankManager
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> Boolean
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> CreateAccountRequest
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> Double
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> DurationInt
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> FAILED
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> FiniteDuration
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> Function1
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> GetAccountRequest
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> IdentifyActor
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> IndexOutOfBoundsException
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> Int
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> Iterator
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> NoSuchElementException
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> None
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> Nothing
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> Object
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> Option
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> Predef
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> Product
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> ScalaActorRef
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> ScalaRunTime
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> Serializable
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> Some
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> Statics
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> String
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> T
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> T0
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> Timeout
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> Transaction
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> TransactionRequestReceipt
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> TransactionStatus
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> Unit
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> Value
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> _hashCode
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> _toString
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> account
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> accountCounter
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> accountId
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> actor
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> actorRef2Scala
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> akka
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> asInstanceOf
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> atomic
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> bank
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> bankId
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> concurrent
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> createAccount
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> doubleHash
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> duration
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> eq
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> finalizeHash
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> findAccount
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> findBank
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> findOtherBank
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> get
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> id
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> incrementAndGet
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> initialBalance
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> isEmpty
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> isInstanceOf
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> isInternal
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> java
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> length
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> mix
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> package
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> processTransaction
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> runtime
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> scala
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> seconds
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> self
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> sender
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> status
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> status_=
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> substring
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> t
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> to
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> toAccountId
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> toAccountNumber
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> toBankId
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> toString
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> transaction
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> typedProductIterator
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> unchecked
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> util
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> ||
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/BankManager.scala -> $anon
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/BankManager.scala -> +=
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/BankManager.scala -> ->
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/BankManager.scala -> <init>
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/BankManager.scala -> <refinement>
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/BankManager.scala -> <repeated>
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/BankManager.scala -> A
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/BankManager.scala -> ActorRef
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/BankManager.scala -> ActorSystem
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/BankManager.scala -> Any
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/BankManager.scala -> AnyRef
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/BankManager.scala -> ArrowAssoc
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/BankManager.scala -> B
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/BankManager.scala -> BankManager
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/BankManager.scala -> Class
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/BankManager.scala -> Double
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/BankManager.scala -> HashMap
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/BankManager.scala -> Nothing
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/BankManager.scala -> Object
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/BankManager.scala -> Predef
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/BankManager.scala -> Props
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/BankManager.scala -> String
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/BankManager.scala -> StringContext
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/BankManager.scala -> SynchronizedMap
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/BankManager.scala -> Tuple2
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/BankManager.scala -> _$2
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/BankManager.scala -> accountId
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/BankManager.scala -> accounts
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/BankManager.scala -> actor
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/BankManager.scala -> actorOf
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/BankManager.scala -> actorSystem
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/BankManager.scala -> akka
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/BankManager.scala -> any2ArrowAssoc
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/BankManager.scala -> apply
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/BankManager.scala -> bankId
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/BankManager.scala -> banks
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/BankManager.scala -> collection
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/BankManager.scala -> initialBalance
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/BankManager.scala -> mutable
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/BankManager.scala -> name
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/BankManager.scala -> s
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/BankManager.scala -> scala
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Main.scala -> $anon
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Main.scala -> <byname>
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Main.scala -> <init>
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Main.scala -> App
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Main.scala -> Main
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Main.scala -> Object
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Main.scala -> Thread
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Main.scala -> Unit
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Main.scala -> _root_
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Main.scala -> body
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Main.scala -> java
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Main.scala -> lang
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Main.scala -> scala
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Main.scala -> start
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Main.scala -> t
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Transaction.scala -> !=
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Transaction.scala -> &&
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Transaction.scala -> <init>
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Transaction.scala -> ==
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Transaction.scala -> AnyRef
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Transaction.scala -> Boolean
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Transaction.scala -> Double
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Transaction.scala -> Enumeration
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Transaction.scala -> FAILED
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Transaction.scala -> Object
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Transaction.scala -> PENDING
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Transaction.scala -> Predef
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Transaction.scala -> SUCCESS
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Transaction.scala -> String
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Transaction.scala -> Transaction
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Transaction.scala -> TransactionStatus
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Transaction.scala -> UUID
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Transaction.scala -> Value
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Transaction.scala -> amount
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Transaction.scala -> from
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Transaction.scala -> id
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Transaction.scala -> isCompleted
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Transaction.scala -> java
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Transaction.scala -> randomUUID
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Transaction.scala -> receiptReceived
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Transaction.scala -> scala
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Transaction.scala -> status
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Transaction.scala -> to
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Transaction.scala -> toString
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Transaction.scala -> util
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/exceptions/IllegalAmountException.scala -> <init>
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/exceptions/IllegalAmountException.scala -> IllegalAmountException
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/exceptions/IllegalAmountException.scala -> Object
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/exceptions/IllegalAmountException.scala -> Predef
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/exceptions/IllegalAmountException.scala -> RuntimeException
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/exceptions/IllegalAmountException.scala -> String
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/exceptions/IllegalAmountException.scala -> Throwable
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/exceptions/IllegalAmountException.scala -> cause
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/exceptions/IllegalAmountException.scala -> exceptions
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/exceptions/IllegalAmountException.scala -> message
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/exceptions/IllegalAmountException.scala -> package
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/exceptions/IllegalAmountException.scala -> scala
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/exceptions/NoSufficientFundsException.scala -> <init>
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/exceptions/NoSufficientFundsException.scala -> NoSufficientFundsException
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/exceptions/NoSufficientFundsException.scala -> Object
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/exceptions/NoSufficientFundsException.scala -> Predef
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/exceptions/NoSufficientFundsException.scala -> RuntimeException
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/exceptions/NoSufficientFundsException.scala -> String
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/exceptions/NoSufficientFundsException.scala -> Throwable
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/exceptions/NoSufficientFundsException.scala -> cause
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/exceptions/NoSufficientFundsException.scala -> exceptions
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/exceptions/NoSufficientFundsException.scala -> message
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/exceptions/NoSufficientFundsException.scala -> package
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/exceptions/NoSufficientFundsException.scala -> scala
+product stamps:
+34 items
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/target/scala-2.10/classes/Account$$anonfun$allTransactionsCompleted$1.class -> lastModified(1479827401000)
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/target/scala-2.10/classes/Account$$anonfun$receive$1.class -> lastModified(1479827401000)
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/target/scala-2.10/classes/Account$.class -> lastModified(1479827401000)
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/target/scala-2.10/classes/Account$Balance.class -> lastModified(1479827401000)
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/target/scala-2.10/classes/Account.class -> lastModified(1479827401000)
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/target/scala-2.10/classes/BalanceRequest$.class -> lastModified(1479827401000)
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/target/scala-2.10/classes/BalanceRequest.class -> lastModified(1479827401000)
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/target/scala-2.10/classes/Bank$$anonfun$receive$1.class -> lastModified(1479827401000)
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/target/scala-2.10/classes/Bank.class -> lastModified(1479827401000)
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/target/scala-2.10/classes/BankManager$$anon$1.class -> lastModified(1479827401000)
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/target/scala-2.10/classes/BankManager$$anon$2.class -> lastModified(1479827401000)
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/target/scala-2.10/classes/BankManager$.class -> lastModified(1479827401000)
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/target/scala-2.10/classes/BankManager.class -> lastModified(1479827401000)
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/target/scala-2.10/classes/CreateAccountRequest$.class -> lastModified(1479827401000)
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/target/scala-2.10/classes/CreateAccountRequest.class -> lastModified(1479827401000)
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/target/scala-2.10/classes/GetAccountRequest$.class -> lastModified(1479827401000)
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/target/scala-2.10/classes/GetAccountRequest.class -> lastModified(1479827401000)
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/target/scala-2.10/classes/IdentifyActor$.class -> lastModified(1479827401000)
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/target/scala-2.10/classes/IdentifyActor.class -> lastModified(1479827401000)
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/target/scala-2.10/classes/Main$$anon$1.class -> lastModified(1479827401000)
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/target/scala-2.10/classes/Main$.class -> lastModified(1479827401000)
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/target/scala-2.10/classes/Main.class -> lastModified(1479827401000)
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/target/scala-2.10/classes/Transaction$.class -> lastModified(1479827401000)
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/target/scala-2.10/classes/Transaction.class -> lastModified(1479827401000)
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/target/scala-2.10/classes/TransactionRequest$.class -> lastModified(1479827401000)
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/target/scala-2.10/classes/TransactionRequest.class -> lastModified(1479827401000)
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/target/scala-2.10/classes/TransactionRequestReceipt$.class -> lastModified(1479827401000)
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/target/scala-2.10/classes/TransactionRequestReceipt.class -> lastModified(1479827401000)
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/target/scala-2.10/classes/TransactionStatus$.class -> lastModified(1479827401000)
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/target/scala-2.10/classes/TransactionStatus.class -> lastModified(1479827401000)
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/target/scala-2.10/classes/exceptions/IllegalAmountException$.class -> lastModified(1479827401000)
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/target/scala-2.10/classes/exceptions/IllegalAmountException.class -> lastModified(1479827401000)
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/target/scala-2.10/classes/exceptions/NoSufficientFundsException$.class -> lastModified(1479827401000)
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/target/scala-2.10/classes/exceptions/NoSufficientFundsException.class -> lastModified(1479827401000)
+source stamps:
+7 items
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> hash(2f03eb8774e967862ea6a0c22856a2e9983bb78c)
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> hash(1f66e3a6fa8be1403877c17daae73bdcd2af40e3)
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/BankManager.scala -> hash(ae7d045c1bb5a49b79488ce811ba2211db7d4165)
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Main.scala -> hash(1cd730e2a6ae4bb488c936d5dc326b0f9cc4ea2d)
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Transaction.scala -> hash(6c0b4e46555bd2ec9b02ae6bb78af0ac697e7117)
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/exceptions/IllegalAmountException.scala -> hash(ff0b659f88776d54acc964a889249118dd22f652)
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/exceptions/NoSufficientFundsException.scala -> hash(51f12f42acb0d071ebfb7063490a1871a2aa5503)
+binary stamps:
+3 items
+/home/edgarmv/.ivy2/cache/com.typesafe.akka/akka-actor_2.10/jars/akka-actor_2.10-2.4-SNAPSHOT.jar -> lastModified(1431119757000)
+/home/edgarmv/.sbt/boot/scala-2.10.6/lib/scala-library.jar -> lastModified(1442568926000)
+/usr/lib/jvm/java-8-openjdk/jre/lib/rt.jar -> lastModified(1477217975000)
+class names:
+3 items
+/home/edgarmv/.ivy2/cache/com.typesafe.akka/akka-actor_2.10/jars/akka-actor_2.10-2.4-SNAPSHOT.jar -> akka.actor.Props
+/home/edgarmv/.sbt/boot/scala-2.10.6/lib/scala-library.jar -> scala.Serializable
+/usr/lib/jvm/java-8-openjdk/jre/lib/rt.jar -> java.lang.RuntimeException
+internal apis:
+7 items
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwNokNgQAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAJzcgAgeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2hbDvUidjhXzwIAAkkABGhhc2hMAARuYW1ldAASTGphdmEvbGFuZy9TdHJpbmc7eHDOTTn4dAAEc2VsZnNxAH4AC4k2t8d0AAdjb250ZXh0dXEAfgAJAAAAQnNxAH4AC5clyml0AAZub3RpZnlzcQB+AAtNzG3ddAAHQmFsYW5jZXNxAH4AC6nUZGB0AAdSZWNlaXZlc3EAfgALNDQ0P3QAGVRyYW5zYWN0aW9uUmVxdWVzdFJlY2VpcHRzcQB+AAvm84VVdAAEd2FpdHNxAH4ACwcxAg50AA5jb3B5JGRlZmF1bHQkMnNxAH4AC7eQP9Z0AA0kYXNJbnN0YW5jZU9mc3EAfgALf1bHJnQAEGdldEJhbGFuY2VBbW91bnRzcQB+AAsb/PY0dAAOZ2V0RnVsbEFkZHJlc3NzcQB+AAt4aftFdAAMcHJvZHVjdEFyaXR5c3EAfgALG/jzTHQABmVxdWFsc3NxAH4AC5jWQN10AA5CYWxhbmNlUmVxdWVzdHNxAH4AC2iH6bB0AAxhc0luc3RhbmNlT2ZzcQB+AAtyS8gcdAAMc3luY2hyb25pemVkc3EAfgAL2nj4Z3QADSRpc0luc3RhbmNlT2ZzcQB+AAv7BCFzdAAHcmVjZWl2ZXNxAH4ACxSRwG90ABhhbGxUcmFuc2FjdGlvbnNDb21wbGV0ZWRzcQB+AAulz5q+dAAKcHJlUmVzdGFydHNxAH4AC9x9osF0ABJyZXNlcnZlVHJhbnNhY3Rpb25zcQB+AAsRQ9zodAANYXJvdW5kUmVjZWl2ZXNxAH4AC7oJLs50AAhjYW5FcXVhbHNxAH4AC6xNxOV0AAdiYWxhbmNlc3EAfgALKwkCFHQAC3Bvc3RSZXN0YXJ0c3EAfgALbI+0PnQACWFjY291bnRJZHNxAH4AC4dNKyd0AAhwb3N0U3RvcHNxAH4AC2Z4hlN0AA1wcm9kdWN0UHJlZml4c3EAfgALq1hjznQACW5vdGlmeUFsbHNxAH4AC6rOFFV0AAZhbW91bnRzcQB+AAsXia3RdAARYXJvdW5kUG9zdFJlc3RhcnRzcQB+AAu4WSmedAAMaXNJbnN0YW5jZU9mc3EAfgALiBtzbHQADmluaXRpYWxCYWxhbmNlc3EAfgALruGbeHQAEGFyb3VuZFByZVJlc3RhcnRzcQB+AAvjp9aWdAAOYXJvdW5kUG9zdFN0b3BzcQB+AAtk7wnXdAAGPGluaXQ+c3EAfgALpNXYjHQACHByZVN0YXJ0c3EAfgALSNPA2XQACXVuaGFuZGxlZHNxAH4AC8yzj/Z0AAh3aXRoZHJhd3NxAH4AC1X7oxh0AAI9PXNxAH4AC50i0wB0AAVjbG9uZXNxAH4AC0ElMK50AAp0cmFuc2ZlclRvc3EAfgALmu7M/HQABiRpbml0JHNxAH4AC7pKMsl0ABJUcmFuc2FjdGlvblJlcXVlc3RzcQB+AAviKJ9NdAAPdG9BY2NvdW50TnVtYmVyc3EAfgALeu+bsnQADmNvcHkkZGVmYXVsdCQzc3EAfgALsvulE3QABGNvcHlzcQB+AAsIdmi1dAAGc2VuZGVyc3EAfgALgJbQLHQAFXNlbmRUcmFuc2FjdGlvblRvQmFua3NxAH4AC26DYWJ0AA9nZXRUcmFuc2FjdGlvbnNzcQB+AAsJRuDOdAAIdG9TdHJpbmdzcQB+AAvO5ThBdAACIT1zcQB+AAujNxzadAAIZ2V0Q2xhc3NzcQB+AAto/+rKdAAOY29weSRkZWZhdWx0JDFzcQB+AAsIjAybdAAHZGVwb3NpdHNxAH4AC6srjuJ0AAJuZXNxAH4AC4Va2290AAt0cmFuc2FjdGlvbnNxAH4ACzsEppl0AAZiYW5rSWRzcQB+AAuVJ4jEdAASc3VwZXJ2aXNvclN0cmF0ZWd5c3EAfgALt4m/iXQAAmVxc3EAfgALoTWyKHQAD3Byb2R1Y3RJdGVyYXRvcnNxAH4ACx8T8ud0AA10cmFuc2FjdGlvbklkc3EAfgAL/MZWfXQAAiMjc3EAfgALVFZwd3QACGZpbmFsaXplc3EAfgALiIjqUHQADnByb2R1Y3RFbGVtZW50c3EAfgALvKLs9nQACGhhc2hDb2Rlc3EAfgALsECoBXQADmFyb3VuZFByZVN0YXJ0c3EAfgALYdEEe3QAB0FjY291bnRzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAAEc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgCfeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADHhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnOX52HcEyZ7swIAAUIABWZsYWdzeHAAcQB+AGV1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAhDbGFzc0RlZnVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgAheHNidGkuYXBpLkFic3RyYWN0TGF6eSRTdHJpY3RMYXp5DWYcaykWKrgCAAFMAAV2YWx1ZXQAEkxqYXZhL2xhbmcvT2JqZWN0O3hwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AtnNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgCfTAAJaW5oZXJpdGVkcQB+AJ9MAAdwYXJlbnRzcQB+AJ94cQB+ALtzcQB+ALZ1cQB+AJoAAAAAc3EAfgC2dXEAfgCaAAAAAHNxAH4AtnVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAAGc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgAMTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AunQADFNlcmlhbGl6YWJsZXNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AunNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF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
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhw0VhbVQAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAJzcgAgeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2hbDvUidjhXzwIAAkkABGhhc2hMAARuYW1ldAASTGphdmEvbGFuZy9TdHJpbmc7eHCiFVf3dAAEc2VsZnNxAH4ACwfXPWd0AAdjb250ZXh0dXEAfgAJAAAANnNxAH4AC+90pM90AAZub3RpZnlzcQB+AAughNatdAAHUmVjZWl2ZXNxAH4ACwcVdzB0AAR3YWl0c3EAfgALeukKEnQADSRhc0luc3RhbmNlT2ZzcQB+AAuhu7aydAAMcHJvZHVjdEFyaXR5c3EAfgALtzRQAnQABmVxdWFsc3NxAH4AC55ocF50AAxhc0luc3RhbmNlT2ZzcQB+AAswjWKtdAANSWRlbnRpZnlBY3RvcnNxAH4ACwgx4jR0AAxzeW5jaHJvbml6ZWRzcQB+AAtpmNs3dAANJGlzSW5zdGFuY2VPZnNxAH4AC+sd5wN0AAdyZWNlaXZlc3EAfgALNHWwCnQACnByZVJlc3RhcnRzcQB+AAt71o5IdAANYXJvdW5kUmVjZWl2ZXNxAH4AC9V0euB0AAhjYW5FcXVhbHNxAH4AC6YrBF90AAtwb3N0UmVzdGFydHNxAH4ACx3aISp0AAlhY2NvdW50SWRzcQB+AAtsNUfMdAAScHJvY2Vzc1RyYW5zYWN0aW9uc3EAfgALHsjWV3QACHBvc3RTdG9wc3EAfgALu07OmXQADXByb2R1Y3RQcmVmaXhzcQB+AAu1ZXxAdAAJbm90aWZ5QWxsc3EAfgALv+S+rnQAEUdldEFjY291bnRSZXF1ZXN0c3EAfgALL3YjWHQADmFjY291bnRDb3VudGVyc3EAfgAL0S0EcXQAEWFyb3VuZFBvc3RSZXN0YXJ0c3EAfgALEAew33QADGlzSW5zdGFuY2VPZnNxAH4AC/lApbB0AA5pbml0aWFsQmFsYW5jZXNxAH4ACzyVrgh0ABBhcm91bmRQcmVSZXN0YXJ0c3EAfgALcrvxDXQADmFyb3VuZFBvc3RTdG9wc3EAfgAL6S6ReXQABjxpbml0PnNxAH4AC0XjVo50AAhwcmVTdGFydHNxAH4AC5lierB0AAl1bmhhbmRsZWRzcQB+AAuIDdrwdAANZmluZE90aGVyQmFua3NxAH4ACxhw1610AAI9PXNxAH4AC27bIwB0AAVjbG9uZXNxAH4AC5zAD8Z0AAYkaW5pdCRzcQB+AAsHGd/ydAAEY29weXNxAH4AC+gKv2h0AAZzZW5kZXJzcQB+AAv3qxY4dAAIdG9TdHJpbmdzcQB+AAtKI0wDdAACIT1zcQB+AAsW25TsdAAIZ2V0Q2xhc3NzcQB+AAsaZCC/dAANY3JlYXRlQWNjb3VudHNxAH4AC/glmvF0AA5jb3B5JGRlZmF1bHQkMXNxAH4AC8MfJj50AAJuZXNxAH4AC5zicCZ0AARCYW5rc3EAfgALdr3GF3QABmJhbmtJZHNxAH4AC5ZfMOF0ABJzdXBlcnZpc29yU3RyYXRlZ3lzcQB+AAuWbIWXdAACZXFzcQB+AAujkXZSdAAPcHJvZHVjdEl0ZXJhdG9yc3EAfgALuHIZZ3QAC2ZpbmRBY2NvdW50c3EAfgALnbauiXQAFENyZWF0ZUFjY291bnRSZXF1ZXN0c3EAfgALphp14HQAAiMjc3EAfgAL8nVgtHQACGZpbmFsaXplc3EAfgALoc1JoHQADnByb2R1Y3RFbGVtZW50c3EAfgALZgkuoXQACGhhc2hDb2Rlc3EAfgALfjYU83QADmFyb3VuZFByZVN0YXJ0c3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAABHNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4Ah3hyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AAx4cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzl+dh3BMme7MCAAFCAAVmbGFnc3hwAHEAfgA7dXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAIQ2xhc3NEZWZ1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAIXhzYnRpLmFwaS5BYnN0cmFjdEx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
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/BankManager.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwh9OnXwAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAYc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwpbE89HQABm5vdGlmeXNxAH4ADBJFm+B0AAR3YWl0c3EAfgAMRDRBjXQADSRhc0luc3RhbmNlT2ZzcQB+AAzrEAxndAAGZXF1YWxzc3EAfgAMFKXn8HQADGFzSW5zdGFuY2VPZnNxAH4ADIcjkpt0AAxzeW5jaHJvbml6ZWRzcQB+AAx4Z6VOdAANJGlzSW5zdGFuY2VPZnNxAH4ADBDNhJN0AAlub3RpZnlBbGxzcQB+AAwOlvt7dAAKY3JlYXRlQmFua3NxAH4ADGPtpVh0AAxpc0luc3RhbmNlT2ZzcQB+AAwFyaMqdAACPT1zcQB+AAwk9IxDdAAFY2xvbmVzcQB+AAz5MP7edAAIdG9TdHJpbmdzcQB+AAxa7zA3dAACIT1zcQB+AAxt3h34dAAIZ2V0Q2xhc3NzcQB+AAz4QjJFdAANY3JlYXRlQWNjb3VudHNxAH4ADCUtCJt0AAJuZXNxAH4ADI/bIex0AAtCYW5rTWFuYWdlcnNxAH4ADDA1nFh0AAhmaW5kQmFua3NxAH4ADIKHP/h0AAJlcXNxAH4ADFQnIUB0AAtmaW5kQWNjb3VudHNxAH4ADDsnxIl0AAIjI3NxAH4ADJranpp0AAhmaW5hbGl6ZXNxAH4ADObJCbp0AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AEd4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc5fnYdwTJnuzAgABQgAFZmxhZ3N4cABxAH4AMXVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABk1vZHVsZXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgAheHNidGkuYXBpLkFic3RyYWN0TGF6eSRTdHJpY3RMYXp5DWYcaykWKrgCAAFMAAV2YWx1ZXQAEkxqYXZhL2xhbmcvT2JqZWN0O3hwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AXnNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBHTAAJaW5oZXJpdGVkcQB+AEdMAAdwYXJlbnRzcQB+AEd4cQB+AGNzcQB+AF51cQB+AEIAAAAAc3EAfgBedXEAfgBCAAAAAHNxAH4AXnVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAACc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AYnQABk9iamVjdHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AYnNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAA3NyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAEamF2YXNxAH4Ae3QABGxhbmdzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AfHNxAH4Ab3QAA0FueXNxAH4Ac3NxAH4AdnVxAH4AeQAAAAJzcQB+AHt0AAVzY2FsYXEAfgCCdXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAABzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAViMlhoYdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQARC9ob21lL2VkZ2FybXYvZGV2L05UTlUvVERUNDE2NS9zY2FsYS90YXNrMy90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUrn0EXBu1pJt5SIzoEboiEdt9QWU=
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Main.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwWrnw0gAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAac3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hw9uPFBnQABm5vdGlmeXNxAH4ADE5NRxt0AAR3YWl0c3EAfgAMYEojJnQADSRhc0luc3RhbmNlT2ZzcQB+AAyiAuv3dAAGZXF1YWxzc3EAfgAMi3ctCHQADGFzSW5zdGFuY2VPZnNxAH4ADLzHxQx0AA5leGVjdXRpb25TdGFydHNxAH4ADEgm0ih0AAxzeW5jaHJvbml6ZWRzcQB+AAwS+s2ndAANJGlzSW5zdGFuY2VPZnNxAH4ADCByHox0AARtYWluc3EAfgAMXSrs83QACW5vdGlmeUFsbHNxAH4ADKiHcll0AAxpc0luc3RhbmNlT2ZzcQB+AAxc1WGRdAAGdGhyZWFkc3EAfgAMRVAMlnQAAj09c3EAfgAMMdillnQABWNsb25lc3EAfgAMninYJXQABiRpbml0JHNxAH4ADNPPdXt0AARNYWluc3EAfgAMKdqiV3QACHRvU3RyaW5nc3EAfgAM5MrP9HQABGFyZ3NzcQB+AAxsBezddAACIT1zcQB+AAz2jva6dAAIZ2V0Q2xhc3NzcQB+AAzTS0awdAACbmVzcQB+AAz/0aa8dAACZXFzcQB+AAzCtuZjdAALZGVsYXllZEluaXRzcQB+AAx1h7yCdAACIyNzcQB+AAwM636fdAAIZmluYWxpemVzcQB+AAzU8EpHdAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBLeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnOX52HcEyZ7swIAAUIABWZsYWdzeHAAcQB+AC11cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAZNb2R1bGV1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAIXhzYnRpLmFwaS5BYnN0cmFjdExhenkkU3RyaWN0TGF6eQ1mHGspFiq4AgABTAAFdmFsdWV0ABJMamF2YS9sYW5nL09iamVjdDt4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AGJzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AS0wACWluaGVyaXRlZHEAfgBLTAAHcGFyZW50c3EAfgBLeHEAfgBnc3EAfgBidXEAfgBGAAAAAHNxAH4AYnVxAH4ARgAAAAFzcgANeHNidGkuYXBpLkRlZlK+n+J8tDZpAgACTAAKcmV0dXJuVHlwZXQAEEx4c2J0aS9hcGkvVHlwZTtbAA92YWx1ZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9QYXJhbWV0ZXJMaXN0O3hxAH4ATHEAfgBVdXEAfgBWAAAAAHNxAH4AWABxAH4AH3VxAH4AWgAAAABzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgBmdAAEVW5pdHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AZnNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAAnNyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAFc2NhbGFzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AhHVyABpbTHhzYnRpLmFwaS5QYXJhbWV0ZXJMaXN0O/XTOh3ys3DuAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJMaXN01sW8HGRJdOMCAAJaAAppc0ltcGxpY2l0WwAKcGFyYW1ldGVyc3QAHFtMeHNidGkvYXBpL01ldGhvZFBhcmFtZXRlcjt4cAB1cgAcW0x4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyO8+4xV2l3bVtAgAAeHAAAAABc3IAGXhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXIfRa4X00mw6gIABFoACmhhc0RlZmF1bHRMAAhtb2RpZmllcnQAHUx4c2J0aS9hcGkvUGFyYW1ldGVyTW9kaWZpZXI7TAAEbmFtZXEAfgANTAADdHBlcQB+AHF4cAB+cgAbeHNidGkuYXBpLlBhcmFtZXRlck1vZGlmaWVyAAAAAAAAAAASAAB4cQB+AF10AAVQbGFpbnEAfgAxc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJpemVkFmzuaQPJu38CAAJMAAhiYXNlVHlwZXEAfgB4WwANdHlwZUFyZ3VtZW50c3QAEVtMeHNidGkvYXBpL1R5cGU7eHEAfgBmc3EAfgB3dAAFQXJyYXlxAH4AfXVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAABc3EAfgB3dAAGU3RyaW5nc3EAfgB7c3EAfgB+dXEAfgCBAAAAA3NxAH4Ag3QABGphdmFzcQB+AIN0AARsYW5ncQB+AIhzcQB+AGJ1cQB+AJsAAAAEc3EAfgB3dAADQXBwcQB+AH1zcQB+AHd0AAtEZWxheWVkSW5pdHEAfgB9c3EAfgB3dAAGT2JqZWN0cQB+AJ9zcQB+AHd0AANBbnlxAH4AfXVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAAAc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFYjJYaGHVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0AEQvaG9tZS9lZGdhcm12L2Rldi9OVE5VL1REVDQxNjUvc2NhbGEvdGFzazMvdGFyZ2V0L3NjYWxhLTIuMTAvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFBzXMOKmrku0iMk21dwyaw+cxOot
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Transaction.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwUJqv6gAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAANzcgAgeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2hbDvUidjhXzwIAAkkABGhhc2hMAARuYW1ldAASTGphdmEvbGFuZy9TdHJpbmc7eHBVH+BGdAAIb3JkZXJpbmdzcQB+AAskfe36dAAMY2FuQnVpbGRGcm9tc3EAfgALLKxzfnQADW1rT3JkZXJpbmdPcHN1cQB+AAkAAADBc3EAfgALw76uv3QACnRvSXRlcmFibGVzcQB+AAvRXcb3dAAKd2l0aEZpbHRlcnNxAH4AC2ITB4J0AA10b1RyYXZlcnNhYmxlc3EAfgALXkxIgXQABm5vdGlmeXNxAH4AC+NDsXF0AARmaW5kc3EAfgALWEjW/XQABHNwYW5zcQB+AAtlwlkvdAAHZmxhdHRlbnNxAH4AC4alRd90AAtpc0NvbXBsZXRlZHNxAH4ACw9/6yh0AAh0b0J1ZmZlcnNxAH4AC4XO9b90AAVjb3VudHNxAH4AC8yGTlR0AAZuZXh0SWRzcQB+AAuo7Ag2dAAMcmVkdWNlT3B0aW9uc3EAfgALuuqYN3QAE3NsaWNlV2l0aEtub3duRGVsdGFzcQB+AAvjJTlPdAAEd2FpdHNxAH4AC0WZ5Od0AAtUcmFuc2FjdGl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vdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAACc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgGfeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADHhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnOX52HcEyZ7swIAAUIABWZsYWdzeHAAcQB+AU11cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAZNb2R1bGV1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAABdAAQc2NhbGEuZGVwcmVjYXRlZHN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
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/exceptions/IllegalAmountException.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwA3+cRwAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAhc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hw4V5hiXQABm5vdGlmeXNxAH4ADNs56GF0AA9wcmludFN0YWNrVHJhY2VzcQB+AAyvm5fOdAATZ2V0TG9jYWxpemVkTWVzc2FnZXNxAH4ADMQln+h0AAR3YWl0c3EAfgAMmhzLd3QADSRhc0luc3RhbmNlT2ZzcQB+AAyhaLrLdAAGZXF1YWxzc3EAfgAMfg0zqXQAEGZpbGxJblN0YWNrVHJhY2VzcQB+AAxoJgdhdAAJaW5pdENhdXNlc3EAfgAM2n+EinQADGFzSW5zdGFuY2VPZnNxAH4ADHAywgZ0AAxzeW5jaHJvbml6ZWRzcQB+AAxe1x3rdAANJGlzSW5zdGFuY2VPZnNxAH4ADIFP5Z90AAhnZXRDYXVzZXNxAH4ADBcgKA10AAlub3RpZnlBbGxzcQB+AAzo9mHwdAAMaXNJbnN0YW5jZU9mc3EAfgAMe0eS63QADWdldFN0YWNrVHJhY2VzcQB+AAxF2Xu/dAAUZ2V0U3RhY2tUcmFjZUVsZW1lbnRzcQB+AAyqqnfNdAAGPGluaXQ+c3EAfgAMfqVJCnQACmdldE1lc3NhZ2VzcQB+AAy4SXemdAANc2V0U3RhY2tUcmFjZXNxAH4ADHtN4hV0AA1nZXRTdXBwcmVzc2Vkc3EAfgAMHoD4nXQAAj09c3EAfgAM+xUoBXQAEmdldFN0YWNrVHJhY2VEZXB0aHNxAH4ADGFHKYh0AAVjbG9uZXNxAH4ADCDM8S50AA1hZGRTdXBwcmVzc2Vkc3EAfgAM8e5hmXQACHRvU3RyaW5nc3EAfgAMqW0D1nQAAiE9c3EAfgAMmrMH1nQACGdldENsYXNzc3EAfgAMxhK0T3QAAm5lc3EAfgAMXO9gmHQAAmVxc3EAfgAM7wHf13QAAiMjc3EAfgAM8nWP0XQACGZpbmFsaXplc3EAfgAMC/1drHQACGhhc2hDb2Rlc3EAfgAM68FWOnQAFklsbGVnYWxBbW91bnRFeGNlcHRpb25zcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBZeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnOX52HcEyZ7swIAAUIABWZsYWdzeHAAdAAhZXhjZXB0aW9ucy5JbGxlZ2FsQW1vdW50RXhjZXB0aW9udXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAIQ2xhc3NEZWZ1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAIXhzYnRpLmFwaS5BYnN0cmFjdExhenkkU3RyaWN0TGF6eQ1mHGspFiq4AgABTAAFdmFsdWV0ABJMamF2YS9sYW5nL09iamVjdDt4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AHFzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AWUwACWluaGVyaXRlZHEAfgBZTAAHcGFyZW50c3EAfgBZeHEAfgB2c3EAfgBxdXEAfgBUAAAAAHNxAH4AcXVxAH4AVAAAAABzcQB+AHF1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAABnNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AHV0ABBSdW50aW1lRXhjZXB0aW9uc3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgB1c3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAADc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AARqYXZhc3EAfgCOdAAEbGFuZ3NyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgCPc3EAfgCCdAAJRXhjZXB0aW9ucQB+AIhzcQB+AIJ0AAlUaHJvd2FibGVxAH4AiHNxAH4AgnQADFNlcmlhbGl6YWJsZXNxAH4AhnNxAH4AiXVxAH4AjAAAAANzcQB+AI5xAH4AkXNxAH4AjnQAAmlvcQB+AJVzcQB+AIJ0AAZPYmplY3RxAH4AiHNxAH4AgnQAA0FueXNxAH4AhnNxAH4AiXVxAH4AjAAAAAJzcQB+AI50AAVzY2FsYXEAfgCVdXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAAFzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADXhwdAAKZXhjZXB0aW9uc3NyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWIyWGhh1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdABEL2hvbWUvZWRnYXJtdi9kZXYvTlROVS9URFQ0MTY1L3NjYWxhL3Rhc2szL3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABT/C2WfiHdtVKzJZKiJJJEY3SL2Ug==
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/exceptions/NoSufficientFundsException.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwSsX5vwAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAhc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwWEfW8nQABm5vdGlmeXNxAH4ADG7xhX10AA9wcmludFN0YWNrVHJhY2VzcQB+AAx6+SWFdAATZ2V0TG9jYWxpemVkTWVzc2FnZXNxAH4ADFX6Wa50AAR3YWl0c3EAfgAMPftbNnQADSRhc0luc3RhbmNlT2ZzcQB+AAwUwLO7dAAaTm9TdWZmaWNpZW50RnVuZHNFeGNlcHRpb25zcQB+AAxxwzkrdAAGZXF1YWxzc3EAfgAMQ+pE53QAEGZpbGxJblN0YWNrVHJhY2VzcQB+AAzRm31YdAAJaW5pdENhdXNlc3EAfgAMHzkVt3QADGFzSW5zdGFuY2VPZnNxAH4ADDIl0Ph0AAxzeW5jaHJvbml6ZWRzcQB+AAylp/PSdAANJGlzSW5zdGFuY2VPZnNxAH4ADCLbR9N0AAhnZXRDYXVzZXNxAH4ADCTN2OF0AAlub3RpZnlBbGxzcQB+AAznGvb7dAAMaXNJbnN0YW5jZU9mc3EAfgAMdXBOyHQADWdldFN0YWNrVHJhY2VzcQB+AAzIEJZBdAAUZ2V0U3RhY2tUcmFjZUVsZW1lbnRzcQB+AAzGWbZLdAAGPGluaXQ+c3EAfgAM5p5jaXQACmdldE1lc3NhZ2VzcQB+AAx5/FQcdAANc2V0U3RhY2tUcmFjZXNxAH4ADOjdHgd0AA1nZXRTdXBwcmVzc2Vkc3EAfgAMfMPbanQAAj09c3EAfgAMnMH2MHQAEmdldFN0YWNrVHJhY2VEZXB0aHNxAH4ADKlyFXZ0AAVjbG9uZXNxAH4ADD2uVwp0AA1hZGRTdXBwcmVzc2Vkc3EAfgAM6bc2JXQACHRvU3RyaW5nc3EAfgAMUbLxE3QAAiE9c3EAfgAMOALAvXQACGdldENsYXNzc3EAfgAMPCv2MHQAAm5lc3EAfgAMUQwDU3QAAmVxc3EAfgAMDyTQBnQAAiMjc3EAfgAMH7DuXXQACGZpbmFsaXplc3EAfgAMEqAyDHQACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AWXhyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzl+dh3BMme7MCAAFCAAVmbGFnc3hwAHQAJWV4Y2VwdGlvbnMuTm9TdWZmaWNpZW50RnVuZHNFeGNlcHRpb251cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAhDbGFzc0RlZnVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgAheHNidGkuYXBpLkFic3RyYWN0TGF6eSRTdHJpY3RMYXp5DWYcaykWKrgCAAFMAAV2YWx1ZXQAEkxqYXZhL2xhbmcvT2JqZWN0O3hwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AcXNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBZTAAJaW5oZXJpdGVkcQB+AFlMAAdwYXJlbnRzcQB+AFl4cQB+AHZzcQB+AHF1cQB+AFQAAAAAc3EAfgBxdXEAfgBUAAAAAHNxAH4AcXVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAAGc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AdXQAEFJ1bnRpbWVFeGNlcHRpb25zcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AHVzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAANzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABGphdmFzcQB+AI50AARsYW5nc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AI9zcQB+AIJ0AAlFeGNlcHRpb25xAH4AiHNxAH4AgnQACVRocm93YWJsZXEAfgCIc3EAfgCCdAAMU2VyaWFsaXphYmxlc3EAfgCGc3EAfgCJdXEAfgCMAAAAA3NxAH4AjnEAfgCRc3EAfgCOdAACaW9xAH4AlXNxAH4AgnQABk9iamVjdHEAfgCIc3EAfgCCdAADQW55c3EAfgCGc3EAfgCJdXEAfgCMAAAAAnNxAH4AjnQABXNjYWxhcQB+AJV1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAXNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0AApleGNlcHRpb25zc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFYjJYaGHVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0AEQvaG9tZS9lZGdhcm12L2Rldi9OVE5VL1REVDQxNjUvc2NhbGEvdGFzazMvdGFyZ2V0L3NjYWxhLTIuMTAvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFFHxL0KssNBx6/twY0kKGHGiqlUD
+external apis:
+0 items
+source infos:
+7 items
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Account.scala -> 
+AAAAAAAAAAA=
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Bank.scala -> 
+AAAAAAAAAAEAAAEAAABEADEgICAgaW1wbGljaXQgdmFsIHRpbWVvdXQgPSBuZXcgVGltZW91dCg1IHNlY29uZHMpAQAAB8wBAAAAKQEAKSAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgAQBEL2hvbWUvZWRnYXJtdi9kZXYvTlROVS9URFQ0MTY1L3NjYWxhL3Rhc2szL3NyYy9tYWluL3NjYWxhL0Jhbmsuc2NhbGEBAEQvaG9tZS9lZGdhcm12L2Rldi9OVE5VL1REVDQxNjUvc2NhbGEvdGFzazMvc3JjL21haW4vc2NhbGEvQmFuay5zY2FsYQFscG9zdGZpeCBvcGVyYXRvciBzZWNvbmRzIHNob3VsZCBiZSBlbmFibGVkCmJ5IG1ha2luZyB0aGUgaW1wbGljaXQgdmFsdWUgc2NhbGEubGFuZ3VhZ2UucG9zdGZpeE9wcyB2aXNpYmxlLgpUaGlzIGNhbiBiZSBhY2hpZXZlZCBieSBhZGRpbmcgdGhlIGltcG9ydCBjbGF1c2UgJ2ltcG9ydCBzY2FsYS5sYW5ndWFnZS5wb3N0Zml4T3BzJwpvciBieSBzZXR0aW5nIHRoZSBjb21waWxlciBvcHRpb24gLWxhbmd1YWdlOnBvc3RmaXhPcHMuClNlZSB0aGUgU2NhbGEgZG9jcyBmb3IgdmFsdWUgc2NhbGEubGFuZ3VhZ2UucG9zdGZpeE9wcyBmb3IgYSBkaXNjdXNzaW9uCndoeSB0aGUgZmVhdHVyZSBzaG91bGQgYmUgZXhwbGljaXRseSBlbmFibGVkLgE=
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/BankManager.scala -> 
+AAAAAAAAAAA=
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Main.scala -> 
+AAAAAAAAAAA=
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/Transaction.scala -> 
+AAAAAAAAAAA=
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/exceptions/IllegalAmountException.scala -> 
+AAAAAAAAAAA=
+/home/edgarmv/dev/NTNU/TDT4165/scala/task3/src/main/scala/exceptions/NoSufficientFundsException.scala -> 
+AAAAAAAAAAA=
+compilations:
+58 items
+00 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWF+Nf191cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQATC9ob21lL2VkZ2FybXYvZGV2L05UTlUvVERUNDE2NS9zY2FsYS90YXNrMy1wcm9qZWN0L3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
+01 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWF+V75N1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQATC9ob21lL2VkZ2FybXYvZGV2L05UTlUvVERUNDE2NS9zY2FsYS90YXNrMy1wcm9qZWN0L3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
+02 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWF+aG7l1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQATC9ob21lL2VkZ2FybXYvZGV2L05UTlUvVERUNDE2NS9zY2FsYS90YXNrMy1wcm9qZWN0L3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
+03 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWF+bVr11cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQATC9ob21lL2VkZ2FybXYvZGV2L05UTlUvVERUNDE2NS9zY2FsYS90YXNrMy1wcm9qZWN0L3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
+04 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWF+cJCF1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQATC9ob21lL2VkZ2FybXYvZGV2L05UTlUvVERUNDE2NS9zY2FsYS90YXNrMy1wcm9qZWN0L3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
+05 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWF+d3DN1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQATC9ob21lL2VkZ2FybXYvZGV2L05UTlUvVERUNDE2NS9zY2FsYS90YXNrMy1wcm9qZWN0L3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
+06 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWF+e02t1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQATC9ob21lL2VkZ2FybXYvZGV2L05UTlUvVERUNDE2NS9zY2FsYS90YXNrMy1wcm9qZWN0L3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
+07 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWF+h3691cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQATC9ob21lL2VkZ2FybXYvZGV2L05UTlUvVERUNDE2NS9zY2FsYS90YXNrMy1wcm9qZWN0L3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
+08 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWF+iURV1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQATC9ob21lL2VkZ2FybXYvZGV2L05UTlUvVERUNDE2NS9zY2FsYS90YXNrMy1wcm9qZWN0L3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
+09 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWF+vT9Z1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQATC9ob21lL2VkZ2FybXYvZGV2L05UTlUvVERUNDE2NS9zY2FsYS90YXNrMy1wcm9qZWN0L3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
+10 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWF+xOix1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQATC9ob21lL2VkZ2FybXYvZGV2L05UTlUvVERUNDE2NS9zY2FsYS90YXNrMy1wcm9qZWN0L3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
+11 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWF+yN5x1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQATC9ob21lL2VkZ2FybXYvZGV2L05UTlUvVERUNDE2NS9zY2FsYS90YXNrMy1wcm9qZWN0L3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
+12 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWF+yjGx1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQATC9ob21lL2VkZ2FybXYvZGV2L05UTlUvVERUNDE2NS9zY2FsYS90YXNrMy1wcm9qZWN0L3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
+13 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWF+0X0p1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQATC9ob21lL2VkZ2FybXYvZGV2L05UTlUvVERUNDE2NS9zY2FsYS90YXNrMy1wcm9qZWN0L3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
+14 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWF+16U51cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQATC9ob21lL2VkZ2FybXYvZGV2L05UTlUvVERUNDE2NS9zY2FsYS90YXNrMy1wcm9qZWN0L3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
+15 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWF+97Vt1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQATC9ob21lL2VkZ2FybXYvZGV2L05UTlUvVERUNDE2NS9zY2FsYS90YXNrMy1wcm9qZWN0L3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
+16 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWF++9A11cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQATC9ob21lL2VkZ2FybXYvZGV2L05UTlUvVERUNDE2NS9zY2FsYS90YXNrMy1wcm9qZWN0L3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
+17 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWF+/SuR1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQATC9ob21lL2VkZ2FybXYvZGV2L05UTlUvVERUNDE2NS9zY2FsYS90YXNrMy1wcm9qZWN0L3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
+18 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWF+/5XN1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQATC9ob21lL2VkZ2FybXYvZGV2L05UTlUvVERUNDE2NS9zY2FsYS90YXNrMy1wcm9qZWN0L3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
+19 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWF/BZ7B1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQATC9ob21lL2VkZ2FybXYvZGV2L05UTlUvVERUNDE2NS9zY2FsYS90YXNrMy1wcm9qZWN0L3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
+20 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWF/C+CN1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQATC9ob21lL2VkZ2FybXYvZGV2L05UTlUvVERUNDE2NS9zY2FsYS90YXNrMy1wcm9qZWN0L3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
+21 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWF/F2Q11cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQATC9ob21lL2VkZ2FybXYvZGV2L05UTlUvVERUNDE2NS9zY2FsYS90YXNrMy1wcm9qZWN0L3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
+22 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWF/IW4F1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQATC9ob21lL2VkZ2FybXYvZGV2L05UTlUvVERUNDE2NS9zY2FsYS90YXNrMy1wcm9qZWN0L3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
+23 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWF/MEal1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQATC9ob21lL2VkZ2FybXYvZGV2L05UTlUvVERUNDE2NS9zY2FsYS90YXNrMy1wcm9qZWN0L3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
+24 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWF/OELV1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQATC9ob21lL2VkZ2FybXYvZGV2L05UTlUvVERUNDE2NS9zY2FsYS90YXNrMy1wcm9qZWN0L3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
+25 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWF/O2mJ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQATC9ob21lL2VkZ2FybXYvZGV2L05UTlUvVERUNDE2NS9zY2FsYS90YXNrMy1wcm9qZWN0L3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
+26 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWF/SOet1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQATC9ob21lL2VkZ2FybXYvZGV2L05UTlUvVERUNDE2NS9zY2FsYS90YXNrMy1wcm9qZWN0L3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
+27 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWF/SsZZ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQATC9ob21lL2VkZ2FybXYvZGV2L05UTlUvVERUNDE2NS9zY2FsYS90YXNrMy1wcm9qZWN0L3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
+28 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWF/TwJ51cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQATC9ob21lL2VkZ2FybXYvZGV2L05UTlUvVERUNDE2NS9zY2FsYS90YXNrMy1wcm9qZWN0L3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
+29 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWF/Uh8Z1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQATC9ob21lL2VkZ2FybXYvZGV2L05UTlUvVERUNDE2NS9zY2FsYS90YXNrMy1wcm9qZWN0L3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
+30 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWF/U7AZ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQATC9ob21lL2VkZ2FybXYvZGV2L05UTlUvVERUNDE2NS9zY2FsYS90YXNrMy1wcm9qZWN0L3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
+31 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWF/blDd1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQATC9ob21lL2VkZ2FybXYvZGV2L05UTlUvVERUNDE2NS9zY2FsYS90YXNrMy1wcm9qZWN0L3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
+32 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWF/g49t1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQATC9ob21lL2VkZ2FybXYvZGV2L05UTlUvVERUNDE2NS9zY2FsYS90YXNrMy1wcm9qZWN0L3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
+33 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWF/jiO51cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQATC9ob21lL2VkZ2FybXYvZGV2L05UTlUvVERUNDE2NS9zY2FsYS90YXNrMy1wcm9qZWN0L3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
+34 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWF/k6iZ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQATC9ob21lL2VkZ2FybXYvZGV2L05UTlUvVERUNDE2NS9zY2FsYS90YXNrMy1wcm9qZWN0L3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
+35 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWF/nESV1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQATC9ob21lL2VkZ2FybXYvZGV2L05UTlUvVERUNDE2NS9zY2FsYS90YXNrMy1wcm9qZWN0L3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
+36 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWF/oIoV1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQATC9ob21lL2VkZ2FybXYvZGV2L05UTlUvVERUNDE2NS9zY2FsYS90YXNrMy1wcm9qZWN0L3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
+37 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWF/rdyB1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQATC9ob21lL2VkZ2FybXYvZGV2L05UTlUvVERUNDE2NS9zY2FsYS90YXNrMy1wcm9qZWN0L3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
+38 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWF/urb51cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQATC9ob21lL2VkZ2FybXYvZGV2L05UTlUvVERUNDE2NS9zY2FsYS90YXNrMy1wcm9qZWN0L3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
+39 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWF/w/el1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQATC9ob21lL2VkZ2FybXYvZGV2L05UTlUvVERUNDE2NS9zY2FsYS90YXNrMy1wcm9qZWN0L3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
+40 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWF/0apt1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQATC9ob21lL2VkZ2FybXYvZGV2L05UTlUvVERUNDE2NS9zY2FsYS90YXNrMy1wcm9qZWN0L3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
+41 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWF/7FEV1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQATC9ob21lL2VkZ2FybXYvZGV2L05UTlUvVERUNDE2NS9zY2FsYS90YXNrMy1wcm9qZWN0L3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
+42 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWF/8Ohx1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQATC9ob21lL2VkZ2FybXYvZGV2L05UTlUvVERUNDE2NS9zY2FsYS90YXNrMy1wcm9qZWN0L3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
+43 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWF/8zjJ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQATC9ob21lL2VkZ2FybXYvZGV2L05UTlUvVERUNDE2NS9zY2FsYS90YXNrMy1wcm9qZWN0L3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
+44 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWF/9pHB1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQATC9ob21lL2VkZ2FybXYvZGV2L05UTlUvVERUNDE2NS9zY2FsYS90YXNrMy1wcm9qZWN0L3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
+45 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWGAEcXR1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQATC9ob21lL2VkZ2FybXYvZGV2L05UTlUvVERUNDE2NS9zY2FsYS90YXNrMy1wcm9qZWN0L3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
+46 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWGAEo0Z1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQATC9ob21lL2VkZ2FybXYvZGV2L05UTlUvVERUNDE2NS9zY2FsYS90YXNrMy1wcm9qZWN0L3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
+47 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWGAF0hN1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQATC9ob21lL2VkZ2FybXYvZGV2L05UTlUvVERUNDE2NS9zY2FsYS90YXNrMy1wcm9qZWN0L3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
+48 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWGAGbfJ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQATC9ob21lL2VkZ2FybXYvZGV2L05UTlUvVERUNDE2NS9zY2FsYS90YXNrMy1wcm9qZWN0L3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
+49 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWGAIs6V1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQATC9ob21lL2VkZ2FybXYvZGV2L05UTlUvVERUNDE2NS9zY2FsYS90YXNrMy1wcm9qZWN0L3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
+50 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWGAK+9J1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQATC9ob21lL2VkZ2FybXYvZGV2L05UTlUvVERUNDE2NS9zY2FsYS90YXNrMy1wcm9qZWN0L3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
+51 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWGAOPA51cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQATC9ob21lL2VkZ2FybXYvZGV2L05UTlUvVERUNDE2NS9zY2FsYS90YXNrMy1wcm9qZWN0L3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
+52 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWGAQJep1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQATC9ob21lL2VkZ2FybXYvZGV2L05UTlUvVERUNDE2NS9zY2FsYS90YXNrMy1wcm9qZWN0L3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
+53 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWGAQWjF1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQATC9ob21lL2VkZ2FybXYvZGV2L05UTlUvVERUNDE2NS9zY2FsYS90YXNrMy1wcm9qZWN0L3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
+54 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWGASfnB1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQATC9ob21lL2VkZ2FybXYvZGV2L05UTlUvVERUNDE2NS9zY2FsYS90YXNrMy1wcm9qZWN0L3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
+55 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWGASxGl1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQATC9ob21lL2VkZ2FybXYvZGV2L05UTlUvVERUNDE2NS9zY2FsYS90YXNrMy1wcm9qZWN0L3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
+56 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWGATi9J1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQATC9ob21lL2VkZ2FybXYvZGV2L05UTlUvVERUNDE2NS9zY2FsYS90YXNrMy1wcm9qZWN0L3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
+57 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWIyWGhh1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARC9ob21lL2VkZ2FybXYvZGV2L05UTlUvVERUNDE2NS9zY2FsYS90YXNrMy90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABLw==

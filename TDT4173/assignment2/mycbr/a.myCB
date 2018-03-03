@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Project name="a" author="" >
+<instances name="PATIENT">
+  <instance id="Olivia" >
+    <att name="primary_complaint" value="Sneezing" />
+    <att name="sleep_quality" value="high" />
+    <att name="weight" value="54.0" />
+    <att name="sex" value="female" />
+    <att name="diagnosis" value="Influenza" />
+    <att name="name" value="Olivia" />
+  </instance>
+  <instance id="James" >
+    <att name="primary_complaint" value="Back pain" />
+    <att name="sleep_quality" value="low" />
+    <att name="weight" value="110.0" />
+    <att name="sex" value="male" />
+    <att name="diagnosis" value="Unknown" />
+    <att name="name" value="James" />
+  </instance>
+  <instance id="Mia" >
+    <att name="primary_complaint" value="Fatigue" />
+    <att name="sleep_quality" value="medium" />
+    <att name="weight" value="65.0" />
+    <att name="sex" value="female" />
+    <att name="diagnosis" value="Unknown" />
+    <att name="name" value="Mia" />
+  </instance>
+  <instance id="Mason" >
+    <att name="primary_complaint" value="Back pain" />
+    <att name="sleep_quality" value="medium" />
+    <att name="weight" value="102.0" />
+    <att name="sex" value="male" />
+    <att name="diagnosis" value="Kidney stone" />
+    <att name="name" value="Mason" />
+  </instance>
+  <instance id="Isabella" >
+    <att name="primary_complaint" value="Stomach problems" />
+    <att name="sleep_quality" value="low" />
+    <att name="weight" value="60.0" />
+    <att name="sex" value="female" />
+    <att name="diagnosis" value="Celiac Disease" />
+    <att name="name" value="Isabella" />
+  </instance>
+  <instance id="Benjamin" >
+    <att name="primary_complaint" value="Stomach problems" />
+    <att name="sleep_quality" value="medium" />
+    <att name="weight" value="90.0" />
+    <att name="sex" value="male" />
+    <att name="diagnosis" value="Food poisoning" />
+    <att name="name" value="Benjamin" />
+  </instance>
+  <instance id="William" >
+    <att name="primary_complaint" value="Sneezing" />
+    <att name="sleep_quality" value="low" />
+    <att name="weight" value="84.0" />
+    <att name="sex" value="male" />
+    <att name="diagnosis" value="Cold" />
+    <att name="name" value="William" />
+  </instance>
+  <instance id="Noah" >
+    <att name="primary_complaint" value="Back pain" />
+    <att name="sleep_quality" value="high" />
+    <att name="weight" value="70.0" />
+    <att name="sex" value="male" />
+    <att name="diagnosis" value="Unknown" />
+    <att name="name" value="Noah" />
+  </instance>
+  <instance id="Liam" >
+    <att name="primary_complaint" value="Joint pain" />
+    <att name="sleep_quality" value="high" />
+    <att name="weight" value="95.0" />
+    <att name="sex" value="male" />
+    <att name="diagnosis" value="Arthritis" />
+    <att name="name" value="Liam" />
+  </instance>
+  <instance id="Ava" >
+    <att name="primary_complaint" value="Fatigue" />
+    <att name="sleep_quality" value="low" />
+    <att name="weight" value="70.0" />
+    <att name="sex" value="female" />
+    <att name="diagnosis" value="Diabetes" />
+    <att name="name" value="Ava" />
+  </instance>
+  <instance id="Emma" >
+    <att name="primary_complaint" value="Joint pain" />
+    <att name="sleep_quality" value="low" />
+    <att name="weight" value="50.0" />
+    <att name="sex" value="female" />
+    <att name="diagnosis" value="Arthritis" />
+    <att name="name" value="Emma" />
+  </instance>
+  <instance id="Sophia" >
+    <att name="primary_complaint" value="Fatigue" />
+    <att name="sleep_quality" value="low" />
+    <att name="weight" value="61.0" />
+    <att name="sex" value="female" />
+    <att name="diagnosis" value="Mononucleosis" />
+    <att name="name" value="Sophia" />
+  </instance>
+</instances>
+<cb name="patient_cb">
+     <case name="Olivia" />
+     <case name="James" />
+     <case name="Mason" />
+     <case name="Mia" />
+     <case name="Isabella" />
+     <case name="Benjamin" />
+     <case name="William" />
+     <case name="Ava" />
+     <case name="Emma" />
+     <case name="Liam" />
+     <case name="Noah" />
+     <case name="Sophia" />
+</cb>
+</Project>

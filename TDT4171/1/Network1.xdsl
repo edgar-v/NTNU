@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<smile version="1.0" id="Network1" numsamples="1000" discsamples="10000">
+	<nodes>
+		<cpt id="Completed">
+			<state id="NotStarted" />
+			<state id="Some" />
+			<state id="AlmostDone" />
+			<state id="Finished" />
+			<probabilities>0.3 0.4 0.17 0.1299999999999999</probabilities>
+		</cpt>
+		<cpt id="Difficulty">
+			<state id="Easy" />
+			<state id="Medium" />
+			<state id="Hard" />
+			<probabilities>0.3333333333333333 0.3333333333333333 0.3333333333333334</probabilities>
+		</cpt>
+		<cpt id="DurationToDelivery">
+			<state id="Short" />
+			<state id="Medium" />
+			<state id="Long" />
+			<probabilities>0.3333333333333333 0.3333333333333333 0.3333333333333334</probabilities>
+		</cpt>
+		<cpt id="ChanceOfFinishing">
+			<state id="NoChance" />
+			<state id="SmallChance" />
+			<state id="MediumChance" />
+			<state id="HighChance" />
+			<parents>Completed Difficulty DurationToDelivery</parents>
+			<probabilities>0.2 0.3 0.3 0.2 0.1 0.2 0.3 0.4 0 0.1 0.3 0.6 0.5 0.35 0.15 0 0.2 0.3 0.2 0.3 0.05 0.15 0.35 0.45 0.8000000000000003 0.1 0.06000000000000001 0.03999999999999996 0.6 0.2 0.1 0.1 0.4 0.2 0.25 0.15 0.15 0.2000000000000001 0.3 0.35 0.1 0.15 0.3 0.45 0.05000000000000002 0.09999999999999989 0.3 0.5500000000000002 0.3 0.2 0.25 0.2499999999999999 0.2 0.16 0.25 0.39 0.1 0.13 0.3 0.47 0.25 0.15 0.2 0.4 0.15 0.15 0.2 0.4999999999999999 0.05 0.1 0.3 0.55 0.05 0.1 0.3 0.55 0.02 0.05000000000000002 0.3 0.63 0 0.02 0.25 0.73 0.1 0.1 0.4 0.4 0.05000000000000002 0.05000000000000002 0.3 0.6 0.02 0.05 0.2 0.73 0.15 0.2000000000000001 0.3 0.35 0.1 0.2 0.2 0.5 0.05 0.15 0.2 0.6 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 1</probabilities>
+		</cpt>
+		<cpt id="Friends">
+			<state id="Yes" />
+			<state id="No" />
+			<probabilities>0.9 0.1</probabilities>
+		</cpt>
+		<cpt id="OutThursday">
+			<state id="WentOut" />
+			<state id="StayedHome" />
+			<probabilities>0.2 0.8</probabilities>
+		</cpt>
+		<cpt id="Work">
+			<state id="Worked" />
+			<state id="DidNotWork" />
+			<probabilities>0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="Tired">
+			<state id="WellRested" />
+			<state id="ALittleTired" />
+			<state id="VeryTired" />
+			<parents>OutThursday Work</parents>
+			<probabilities>0.01 0.04 0.95 0.04999999999999993 0.15 0.8 0.3 0.5 0.2 0.9 0.08 0.01999999999999998</probabilities>
+		</cpt>
+		<cpt id="Money">
+			<state id="LittleMoney" />
+			<state id="SomeMoney" />
+			<state id="AlotOfMoney" />
+			<parents>OutThursday Work</parents>
+			<probabilities>0.2 0.6 0.2 0.7 0.2 0.1 0.1 0.2 0.7 0.3333333333333333 0.3333333333333333 0.3333333333333334</probabilities>
+		</cpt>
+		<cpt id="WorthGoingOut">
+			<state id="Yes" />
+			<state id="Maybe" />
+			<state id="No" />
+			<parents>Friends Tired Money</parents>
+			<probabilities>0.8 0.15 0.05 0.9 0.06 0.04 0.95 0.04 0.01 0.6 0.25 0.15 0.7 0.2 0.1 0.8 0.14 0.06 0.05 0.3 0.6499999999999999 0.3 0.4 0.3 0.4 0.4 0.2 0.1 0.15 0.75 0.15 0.2 0.6499999999999999 0.2 0.1 0.7 0.03 0.1 0.87 0.07000000000000001 0.15 0.7799999999999999 0.1 0.05 0.85 0 0.05 0.95 0 0.1 0.9 0.05 0.05 0.8999999999999999</probabilities>
+		</cpt>
+		<cpt id="GoingOutSaturday">
+			<state id="Yes" />
+			<state id="No" />
+			<probabilities>0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="GoOutOnFriday">
+			<state id="Yes" />
+			<state id="No" />
+			<parents>ChanceOfFinishing WorthGoingOut GoingOutSaturday</parents>
+			<probabilities>0.01 0.99 0.1 0.9 0 1 0 1 0 1 0 1 0.15 0.85 0.3 0.7 0.05 0.95 0.1 0.9 0 1 0 1 0.5 0.5 0.7 0.3 0.3 0.7 0.5 0.5 0.05 0.95 0.1 0.9 0.6 0.4 1 0 0.3 0.7 0.8 0.2 0.1 0.9 0.2 0.8</probabilities>
+		</cpt>
+	</nodes>
+	<extensions>
+		<genie version="1.0" app="GeNIe 2.0.5590.0" name="Network1" faultnameformat="nodestate">
+			<node id="Completed">
+				<name>Exercise Completed</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>131 315 305 410</position>
+				<barchart active="true" width="128" height="108" />
+			</node>
+			<node id="ChanceOfFinishing">
+				<name>Chance of finishing if going out</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>536 460 639 524</position>
+				<barchart active="true" width="236" height="90" />
+			</node>
+			<node id="DurationToDelivery">
+				<name>DurationToDelivery</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>173 564 277 629</position>
+				<barchart active="true" width="128" height="72" />
+			</node>
+			<node id="Difficulty">
+				<name>Difficulty</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>195 478 251 513</position>
+				<barchart active="true" width="128" height="72" />
+			</node>
+			<node id="WorthGoingOut">
+				<name>WorthGoingOut</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1113 468 1201 523</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Friends">
+				<name>FriendsGoingOut</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1090 307 1178 362</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Money">
+				<name>HasMoney</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1109 638 1197 693</position>
+				<barchart active="true" width="128" height="72" />
+			</node>
+			<node id="Tired">
+				<name>Is Tired</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1339 461 1427 516</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Work">
+				<name>WorkedThisWeek</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1406 702 1494 757</position>
+				<barchart active="true" width="142" height="93" />
+			</node>
+			<node id="OutThursday">
+				<name>Went out Thursday</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1271 572 1359 627</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="GoOutOnFriday">
+				<name>Go out on Friday</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>828 473 917 528</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="GoingOutSaturday">
+				<name>Going Out Saturday</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>825 308 926 371</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+		</genie>
+	</extensions>
+</smile>

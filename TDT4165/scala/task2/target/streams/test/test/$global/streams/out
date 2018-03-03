@@ -1,0 +1,7 @@
+[0m[[0mdebug[0m] [0mRunning TaskDef(AccountTests, sbt.SubclassFingerprintWrapper@41959b24, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(AccountTransferTests, sbt.SubclassFingerprintWrapper@41959b24, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mSummary for ScalaTest not available.[0m
+[0m[[0minfo[0m] [0mPassed: Total 13, Failed 0, Errors 0, Passed 13[0m
+[0m[[0mdebug[0m] [0mPassed tests:[0m
+[0m[[0mdebug[0m] [0m	AccountTests[0m
+[0m[[0mdebug[0m] [0m	AccountTransferTests[0m

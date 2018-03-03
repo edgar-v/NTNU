@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Project name="a" author="" >
+<svs>
+  <sv name="_unknown_"/>
+  <sv name="_undefined_"/>
+  <sv name="_others_"/>
+<fct name="default function" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true">
+<qsym name="_unknown_">
+</qsym>
+<qsym name="_undefined_">
+</qsym>
+<qsym name="_others_">
+</qsym>
+</fct>
+</svs>
+<model>
+  <concept name="PATIENT">
+    <desc name="primary_complaint" type="Symbol" mult="false" >
+      <symbol value="Fatigue" />
+      <symbol value="Back pain" />
+      <symbol value="Sneezing" />
+      <symbol value="Joint pain" />
+      <symbol value="Stomach problems" />
+<fct name="complaint_fct" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true">
+<qsym name="Fatigue">
+<csym name="Back pain" sim="0.1"/>
+<csym name="Sneezing" sim="0.2"/>
+<csym name="Joint pain" sim="0.1"/>
+<csym name="Stomach problems" sim="0.3"/>
+</qsym>
+<qsym name="Back pain">
+<csym name="Fatigue" sim="0.1"/>
+<csym name="Joint pain" sim="0.5"/>
+</qsym>
+<qsym name="Sneezing">
+<csym name="Fatigue" sim="0.2"/>
+</qsym>
+<qsym name="Joint pain">
+<csym name="Fatigue" sim="0.1"/>
+<csym name="Back pain" sim="0.5"/>
+</qsym>
+<qsym name="Stomach problems">
+<csym name="Fatigue" sim="0.3"/>
+</qsym>
+</fct>
+<fct name="default function" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true">
+<qsym name="Fatigue">
+</qsym>
+<qsym name="Back pain">
+</qsym>
+<qsym name="Sneezing">
+</qsym>
+<qsym name="Joint pain">
+</qsym>
+<qsym name="Stomach problems">
+</qsym>
+</fct>
+    </desc>
+    <desc name="sleep_quality" type="Symbol" mult="false" >
+      <symbol value="low" />
+      <symbol value="high" />
+      <symbol value="medium" />
+<fct name="default function" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true">
+<qsym name="low">
+</qsym>
+<qsym name="high">
+</qsym>
+<qsym name="medium">
+</qsym>
+</fct>
+<fct name="sleep_fct" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true">
+<qsym name="low">
+<csym name="high" sim="0.2"/>
+<csym name="medium" sim="0.6"/>
+</qsym>
+<qsym name="high">
+<csym name="low" sim="0.2"/>
+<csym name="medium" sim="0.6"/>
+</qsym>
+<qsym name="medium">
+<csym name="low" sim="0.6"/>
+<csym name="high" sim="0.6"/>
+</qsym>
+</fct>
+    </desc>
+    <desc name="sex" type="Symbol" mult="false" >
+      <symbol value="female" />
+      <symbol value="male" />
+<fct name="default function" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true">
+<qsym name="female">
+</qsym>
+<qsym name="male">
+</qsym>
+</fct>
+    </desc>
+    <desc name="name" type="String" mult="false" >
+      <fct name="default function" type="String" symm="true" config="EQUALITY" n="3" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="weight" type="Float" min="0.0" max="200.0" mult="false" >
+      <fct name="weight_smooth_step_fct" type="Float" ltype="SMOOTH_STEP_AT" lparam="-50.0" rtype="SMOOTH_STEP_AT" rparam="50.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" maxForQuotient="10.0" />
+      <fct name="weight_close_fct" type="AdvancedFloat" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" maxForQuotient="10.0" >
+        <point x="-100.0" y="0.1" />
+        <point x="0.0" y="1.0" />
+        <point x="100.0" y="0.1" />
+      </fct>
+      <fct name="weight_fct" type="Float" ltype="POLYNOMIAL_WITH" lparam="1.0" rtype="POLYNOMIAL_WITH" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" maxForQuotient="10.0" />
+      <fct name="default function" type="Float" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" maxForQuotient="10.0" />
+    </desc>
+    <desc name="diagnosis" type="String" mult="false" >
+      <fct name="default function" type="String" symm="true" config="EQUALITY" n="3" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <amalgam name="default function" type="WEIGHTED_SUM" active="true" >
+      <entry name="primary_complaint" active="true" fct="complaint_fct" weight="1.0"/>
+      <entry name="sleep_quality" active="true" fct="sleep_fct" weight="0.7"/>
+      <entry name="sex" active="false" fct="default function" weight="1.0"/>
+      <entry name="name" active="false" fct="default function" weight="1.0"/>
+      <entry name="weight" active="true" fct="weight_smooth_step_fct" weight="0.7"/>
+      <entry name="diagnosis" active="true" fct="default function" weight="1"/>
+    </amalgam>
+  </concept>
+</model>
+<hierarchy>
+  <fct name="default function" type="Taxonomy" mt="PARTNER_QUERY" r="REUSE" t="MAX" qconfig="INNER_NODES_ANY" cconfig="INNER_NODES_ANY" top="inheritanceDesc" sim="0.0" symm="true" >
+    <node name="PATIENT" sim="1.0" parent="inheritanceDesc" />
+  </fct>
+</hierarchy>
+<cases no="12" cb="patient_cb"/>
+</Project>

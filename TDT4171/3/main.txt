@@ -1,0 +1,227 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+TDT4171 Artificial Intelligence Methods
+ Exercise 3
+Edgar Vedvik -- edgarmv@stud.ntnu.no
+2017-03-03
+
+
+
+
+
+
+Introduction
+    In this exercise we were tasked with creating a decision support system for
+    a decision problem of our own choice. The exercise listed some examples,
+    and one of the examples was exactly a problem I was facing this week:
+    Should I go out on Friday or stay home doing this exercise? Next week
+    I had many exercises that were due. I also had plans to go to an event
+    Saturday evening. Therefore, I had good reason to stay home. However, as
+    we all know, staying home Friday night doing exercises, while all your
+    friends are out, isn't much fun.
+    
+    The exercise required that we had to measure the success of our choice. I
+    measured this as the quality of life I would achieve when making this
+    choice. The exercise also required that this decision problem had to
+    contain at least 10 variables, and that half of them would have to be
+    uncertain at the time the decision was made.
+
+    The decision problem was modelled in GeNIe, which is a graphical user
+    interface for solving just such a problem. GeNIe's interface was relatively
+    easy to work with once I learned how to create nodes and connect them
+    together and adding probabilities.
+
+Model
+
+    Once I had chosen what decision problem to model, and my utility function.
+    I followed the steps recommended in [pp. 634]artificial to create
+    the model. The first step was to create a causal model. This meant making a
+    dependency graph, with lines between each dependency. I identified the
+    following variables as directly affecting my quality of life:
+    
+        Will I finish the exercise in time?
+        Did I have a good time Friday night?
+        The amount of money I have.
+        My physical state (hungover / tired / well rested)
+    
+
+    All of these variables are influenced by many other variables. Including
+    all the variables is not in the scope of this report, but I have
+    included those I found most important:
+
+    
+        Exercise deadline.
+        How much of the exercise have i already done (progress).
+        Are my friends going out on Friday?
+        Did I work this week?
+        Did I go out on Thursday?
+        Do I have plans on Saturday?
+        Will I make those plans?
+    
+
+    
+
+
+
+
+
+
+
+    After adding all those variables and identifying how they relate to each
+    other I ended up with the result shown in Figure .
+
+    The second step was to simplify and remove variables that did not affect the
+    decision. Because my model was so simple and all variables affected my
+    utility function, I skipped this step.
+
+    Next step was to assign probability to each unknown state. Some of these
+    were simple, like whether my friends are going out, if I have to
+    work this week and the probability of going out on a Thursday. None of
+    these variables depended on other variables, making figuring out the
+    probability as easy as just remembering how often these things happen.
+
+    With all the edge variables and decisions added, the more complex variables
+    had to be created. These are also based mostly on empirical evidence. The
+    most complex probability table was the Will finish exercise in time,
+    which depended on when the deadline was, my progress on the exercise and
+    whether I would go out on Friday. Since both deadline and progress had
+    three values to choose from, making it a 18x2 big probability table. A
+    small piece of it can be seen in Table .
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    The next step was to assign utilities. I decided to use an additive utility
+    model because it seemed natural for this problem. My quality of life is
+    improved more by finishing the exercise than being well rested for example.
+    The value of each variable affecting my quality of life can be seen in
+    Table . 
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    I decided that my utility function should be the change in my quality of
+    life. Meaning that it could be both negative and positive. My utility
+    function therefore adds the inverse value for the inverse variable. For
+    example, not finishing the exercise would add minus nine to the utility
+    function. This does not apply to the money variable, since it is not a
+    yes/no variable. With this, the best achievable quality of life is 27 and
+    the worst is -22.
+
+    [pp. 634]artificial suggests two more steps: verify and refine the
+    model and perform sensitivity analysis. These two steps were done in
+    paralell with the previous steps. Whenever a variable got a value that
+    did not match with my perception of it, I went back and adjusted the
+    probabilities.
+
+
+
+Results
+    After following all the steps, I ended up with the model seen in Figure
+    . I have entered evidence such as when the exercise is due
+    and how much of it I had done. I also had plans Saturday so I entered that
+    as well. The difference in staying home, doing exercise and going out are
+    not that big, with only a difference in 1.5 between them. Regardless of my
+    choice, my quality of life would improve,
+
+    
+
+
+
+
+
+
+    To make sure my model was good, I tried out a few other scenarios. The
+    results can be seen in Table  and Table
+    .
+
+    
+
+
+
+
+
+
+
+
+
+
+    If the exercise is due tomorrow, quality of life drops significantly
+    regardless of my choice, but drops much more if I go out. It also matters
+    very little whether the exercise is due next week or the week after, which
+    is as expected since I usually don't do exercises that are due more than a
+    week from now.
+
+    
+
+
+
+
+
+
+
+
+
+
+    If I do not plan on going out on Saturday, going out on Friday increases
+    by about 4. This makes sense since I usually go out on at least Friday or
+    Saturday. There is also a slight increase in staying home if I have no plan
+    on Saturday. This points to that my model is not perfect, since ideally
+    this should stay the same, or go down slightly.
+
+Discussion
+    Overall, the results from my model matches my expectations. My quality of
+    life increases regardless of my choice, since either I get to have fun or I
+    am one exercise closer to being done for this semester. Both of which
+    affects my life in a positive way. 
+
+    There were, however, some inconsistencies. If I did not have plans on
+    Saturday I expected the model to show a slight decrease in life quality if
+    I then chose to not go out on Friday. However, my model gave it a slight
+    increase. This is because, in my model, the quality of life is not
+    dependent on a did I go out this weekend variable, which it should
+    have been.
+
+
+
+apacite
+
+

@@ -1,0 +1,37 @@
+[0m[[0mdebug[0m] [0mRunning TaskDef(Test01, sbt.SubclassFingerprintWrapper@65453715, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(Test06, sbt.SubclassFingerprintWrapper@65453715, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(Test02, sbt.SubclassFingerprintWrapper@65453715, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(Test17, sbt.SubclassFingerprintWrapper@65453715, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(Test03, sbt.SubclassFingerprintWrapper@65453715, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(Test15, sbt.SubclassFingerprintWrapper@65453715, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(Test08, sbt.SubclassFingerprintWrapper@65453715, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(Test09, sbt.SubclassFingerprintWrapper@65453715, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(Test16, sbt.SubclassFingerprintWrapper@65453715, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(Test05, sbt.SubclassFingerprintWrapper@65453715, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(Test13, sbt.SubclassFingerprintWrapper@65453715, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(Test07, sbt.SubclassFingerprintWrapper@65453715, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(Test10, sbt.SubclassFingerprintWrapper@65453715, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(Test12, sbt.SubclassFingerprintWrapper@65453715, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(Test11, sbt.SubclassFingerprintWrapper@65453715, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(Test04, sbt.SubclassFingerprintWrapper@65453715, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(Test14, sbt.SubclassFingerprintWrapper@65453715, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mSummary for ScalaTest not available.[0m
+[0m[[0minfo[0m] [0mPassed: Total 17, Failed 0, Errors 0, Passed 17[0m
+[0m[[0mdebug[0m] [0mPassed tests:[0m
+[0m[[0mdebug[0m] [0m	Test08[0m
+[0m[[0mdebug[0m] [0m	Test02[0m
+[0m[[0mdebug[0m] [0m	Test12[0m
+[0m[[0mdebug[0m] [0m	Test01[0m
+[0m[[0mdebug[0m] [0m	Test16[0m
+[0m[[0mdebug[0m] [0m	Test05[0m
+[0m[[0mdebug[0m] [0m	Test15[0m
+[0m[[0mdebug[0m] [0m	Test04[0m
+[0m[[0mdebug[0m] [0m	Test09[0m
+[0m[[0mdebug[0m] [0m	Test11[0m
+[0m[[0mdebug[0m] [0m	Test10[0m
+[0m[[0mdebug[0m] [0m	Test07[0m
+[0m[[0mdebug[0m] [0m	Test03[0m
+[0m[[0mdebug[0m] [0m	Test13[0m
+[0m[[0mdebug[0m] [0m	Test06[0m
+[0m[[0mdebug[0m] [0m	Test14[0m
+[0m[[0mdebug[0m] [0m	Test17[0m

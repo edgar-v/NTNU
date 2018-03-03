@@ -1,0 +1,6 @@
+1. Styling of elements are done by including css/style.css. In this file element selctors, class selectors and id-selectors are all used. 
+2. Flexbox is used on the navbar and in the figure. It is not used for the main article.
+3. The navbar is made functional with javascript. Each menu item has an onclick event listener that calls a function that hides all articles and then shows the one that is clicked.
+4. Added a favicon in the <head> element
+5. Used https://validator.w3.org/
+6. See the js, css and img folders

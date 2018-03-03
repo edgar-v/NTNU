@@ -1,0 +1,142 @@
+\documentclass[a4paper]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8x]{inputenc}
+
+\usepackage[a4paper]{geometry}
+\geometry{verbose,tmargin=3cm,bmargin=3cm,lmargin=2cm,rmargin=2cm,headheight=2cm,headsep=1cm,footskip=2cm}
+
+
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage{enumerate}
+\usepackage{adjustbox}
+\pagestyle{fancy}
+\setlength{\parskip}{\medskipamount}
+\setlength{\parindent}{0pt}
+\usepackage{graphicx}
+
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+
+\makeatletter
+
+\usepackage{subcaption}
+\usepackage{varwidth}
+\usepackage{float} 
+\usepackage{color}
+\usepackage{lastpage}
+\usepackage{indentfirst}
+\usepackage{amsmath}
+
+\lhead[lh-even]{Edgar Vedvik\\edgarmv}
+\chead[ch-even]{TDT4171 Artificial Intelligence Methods\\Exercise 2}
+\rhead[rh-even]{\today}
+
+\lfoot[lf-even]{}
+\cfoot[cf-even]{Page \thepage{} of \pageref{LastPage}}
+\rfoot[rf-even]{}
+
+\date{}
+\makeatother
+\usepackage[english]{babel}
+
+\renewcommand{\algorithmicforall}{\textbf{for each}}
+
+\begin{document}
+\thispagestyle{fancy}
+    \section*{Part A}
+        \begin{itemize}
+            \item
+                The unobservable variable is whether or not it is raining.
+            \item
+                The observable varible is whether or not we see the director carrying an umbrella.
+            \item
+                Dynamic model:
+                \begin{equation}
+                    P(X_t | X_{t-1}) = 
+                    \begin{pmatrix}
+                        0.7 & 0.3\\
+                        0.3 & 0.7
+                    \end{pmatrix}
+                \end{equation}
+
+                Observation model:
+                \begin{equation}
+                    P(E_t | X_t) = 
+                    \begin{pmatrix}
+                        0.9 & 0\\
+                        0 & 0.2
+                    \end{pmatrix}
+                \end{equation}
+
+            \item
+                We assume that this is a first-order Markov process, meaning that the probability of
+                rain today only depends on whether or not it rained yesterday. This would not do in
+                the real world, but is sufficient for this example.
+
+                We assume that the transition process is stationary. Since weather is controlled by the
+                same physical laws every time this is an reasonable assumption.
+
+                Since we base our sensor values on the current state variables, we also make a sensor
+                Markov assumption.
+
+        \end{itemize}
+    \section*{Part B}
+    \begin{lstlisting}[language=bash]
+        $ ./forward_backward.py 
+        1 [ 0.81818182  0.18181818]
+        2 [ 0.88335704  0.11664296]
+        3 [ 0.19066794  0.80933206]
+        4 [ 0.730794  0.269206]
+        5 [ 0.86733889  0.13266111]
+    \end{lstlisting}
+
+    From the table above we can se that $\boldsymbol{P}(\boldsymbol{X}_2 | \boldsymbol{e}_{1:2}) \approx 0.883$ and that $\boldsymbol{P}(\boldsymbol{X}_5 | \boldsymbol{e}_{1:5}) \approx 0.867$.
+
+    \section*{Part C}
+        As we can see above, we got the result of $\boldsymbol{P}(\boldsymbol{X}_1 | \boldsymbol{e}_{1:2}) = [0.883, 0.117]$
+
+        The backward messages looks like this:
+        \begin{lstlisting}[language=bash]
+            $ ./forward_backward.py
+            (..)
+            Backward:
+            5 [1 1]
+            4 [ 0.69  0.41]
+            3 [ 0.4593  0.2437]
+            2 [ 0.090639  0.150251]
+            1 [ 0.06611763  0.04550767]
+            0 [ 0.04438457  0.02422283]
+        \end{lstlisting}
+
+        The Viterbi algorithm pseudocode:
+        \begin{algorithm}
+            \caption{Viterbi}
+            \begin{algorithmic}[1]
+                \Function{VITERBI}{$O, S, \Pi, Y, A, B$}
+                    \ForAll{state $i \in \big\{1,2,\ldots,K\big\}$}
+                        \State{$T_1\big[i,1\big] \leftarrow \pi_i B_{iy1}$}
+                        \State{$T_2\big[i,1\big] \leftarrow 0$}
+                    \EndFor
+                    \ForAll{observation $i \in \big\{2,3,\ldots,T\big\}$}
+                        \ForAll{state $j \in \big\{1,2,\ldots,K\big\}$}
+                            \State{$T_1\big[j,i\big] \leftarrow B_{jyi} \cdot \underset{k}{\max}(T_1\big[k,i-1\big] \cdot A_{kj})$}
+                            \State{$T_2\big[j,i\big] \leftarrow arg \, \underset{k}{\max}(T_1\big[k,i-1\big] \cdot A_{kj})$}
+                        \EndFor
+                    \EndFor
+                    \State{$z_{T} \leftarrow \arg \, \underset{k}{\max}(T_{1}[k,T])$}
+                    \State{$x_{T} \leftarrow s_{z_t}$}
+                    \For{$i \leftarrow T$, T-1,\ldots,2}
+                        \State{$z_{i-1} \leftarrow T_2[z_1,i]$}
+                        \State{$x_{i-1}, \leftarrow s_{z_{i-1}}$}
+                    \EndFor
+                    \State{\Return X}
+                \EndFunction
+            \end{algorithmic}
+        \end{algorithm}
+
+        I did not have enough time to implement the Viterbi algorithm myself, but running some
+        code i found online gave me the most probable path is Raining every day.
+
+\end{document}
